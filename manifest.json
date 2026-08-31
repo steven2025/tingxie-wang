@@ -1,0 +1,17 @@
+{
+  "name": "生字词语听写",
+  "short_name": "听写台",
+  "description": "小学语文生字词语听写小程序，支持生字组词朗读与词语整词听写",
+  "start_url": "./index.html?index=data/%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C_index.json",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

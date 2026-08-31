@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no,email=no">
+<meta name="theme-color" content="#f5f7fb">
+<!-- PWA 安装支持 -->
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="听写台">
+<title>生字词语听写</title>
+<style>
+  /* ============ 全局：清爽简洁 + 移动端友好 ============ */
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  :root {
+    --bg:#f5f7fb; --card:#ffffff;
+    --txt:#2b3554; --sub:#8a94b0;
+    --blue:#3b82f6; --green:#22c55e; --amber:#f59e0b; --violet:#8b5cf6;
+    --line:#e3e8f2;
+    /* 响应式尺寸（手机→平板自动缩放） */
+    --btn-side: clamp(104px, 27vw, 136px);     /* 上一个/下一个 */
+    --btn-replay: clamp(128px, 33vw, 168px);   /* 重听 */
+    --btn-fs-icon: clamp(26px, 7vw, 34px);
+    --btn-fs-label: clamp(14px, 3.8vw, 17px);
+    --progress-fs: clamp(56px, 16vw, 88px);    /* 中央进度数字 */
+    --progress-sub-fs: clamp(34px, 9vw, 56px);
+    --title-fs: clamp(15px, 4.2vw, 19px);
+    --mode-fs: clamp(16px, 4.5vw, 19px);
+  }
+  html,body { height:100%; }
+  html { overscroll-behavior:none; }
+  body {
+    font-family:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Segoe UI",system-ui,-apple-system,sans-serif;
+    background:linear-gradient(160deg,#f0f4ff 0%, #f6f4fb 60%, #eef6f1 100%);
+    background-attachment:fixed;
+    color:var(--txt); user-select:none; -webkit-user-select:none;
+    overflow:hidden; touch-action:manipulation; -webkit-font-smoothing:antialiased;
+  }
+  .app {
+    position:relative; height:100%; width:100%; max-width:min(720px, 100%);
+    margin:0 auto; display:flex; flex-direction:column;
+  }
+
+  /* ============ 顶部：教材 / 课次 隐藏式下拉 ============ */
+  header {
+    display:flex; gap:10px; align-items:center;
+    padding:calc(10px + env(safe-area-inset-top)) 18px 4px; z-index:20;
+  }
+  .picker {
+    position:relative; display:flex; align-items:center; gap:6px;
+    padding:12px 16px; border-radius:14px; background:var(--card);
+    border:1px solid var(--line); box-shadow:0 2px 8px rgba(43,53,84,.06);
+    font-size:var(--title-fs); font-weight:600; color:var(--txt); cursor:pointer;
+    min-height:46px; transition:transform .08s;
+  }
+  .picker:active { transform:scale(.97); }
+  .picker .arrow { font-size:11px; color:var(--sub); transition:transform .2s; }
+  .picker.open .arrow { transform:rotate(180deg); }
+  .picker#bookPicker { color:var(--violet); }
+
+  .dropdown {
+    position:absolute; top:calc(100% + 8px); left:0; width:max-content; min-width:170px; max-width:min(80vw,300px);
+    background:var(--card); border:1px solid var(--line); border-radius:16px;
+    box-shadow:0 16px 40px rgba(43,53,84,.18); padding:6px; display:none;
+    max-height:min(52vh,420px); overflow-y:auto; -webkit-overflow-scrolling:touch; z-index:30;
+  }
+  .dropdown.open { display:block; }
+  .dropdown button {
+    display:block; width:100%; text-align:left; padding:13px 16px;
+    border:none; background:none; border-radius:11px; font-size:15px;
+    color:var(--txt); cursor:pointer; font-family:inherit; min-height:46px;
+  }
+  .dropdown button:active { background:#eef2ff; }
+  .dropdown button.active { background:var(--blue); color:#fff; font-weight:600; }
+
+  /* ============ 中央进度 ============ */
+  .stage { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:clamp(14px,3.5vw,22px); min-height:0; padding:8px 16px; }
+  .mode-tag { font-size:clamp(13px,3.5vw,15px); padding:7px 22px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--sub); letter-spacing:3px; }
+  .progress { font-size:var(--progress-fs); font-weight:700; letter-spacing:2px; color:var(--txt); line-height:1; display:flex; align-items:baseline; gap:4px; }
+  .progress b { color:var(--blue); }
+  .progress-total { font-size:var(--progress-sub-fs); color:var(--sub); font-weight:600; }
+  .lesson-name { font-size:var(--title-fs); color:var(--sub); letter-spacing:2px; text-align:center; }
+
+  /* ============ 模式切换（生字/词语） ============ */
+  .mode-switch { display:flex; gap:12px; padding:0 clamp(20px,6vw,36px); z-index:5; }
+  .mode-chip {
+    flex:1; padding:14px 0; border-radius:18px; border:1.5px solid var(--line);
+    background:var(--card); color:var(--sub); font-size:var(--mode-fs); font-weight:600;
+    letter-spacing:5px; cursor:pointer; font-family:inherit; min-height:54px;
+    transition:transform .08s, box-shadow .2s;
+  }
+  .mode-chip:active { transform:scale(.97); }
+  .mode-chip.active { background:var(--blue); color:#fff; border-color:var(--blue); box-shadow:0 6px 18px rgba(59,130,246,.30); }
+
+  /* ============ 三个巨大按键（触控友好） ============ */
+  footer { padding:clamp(16px,4vw,24px) clamp(18px,5vw,30px) calc(clamp(22px,6vw,30px) + env(safe-area-inset-bottom)); z-index:5; }
+  .ctrl { display:flex; align-items:center; justify-content:space-between; gap:clamp(8px,2.5vw,16px); }
+  .big-btn {
+    border:none; cursor:pointer; font-family:inherit; font-weight:700; color:#fff;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    border-radius:32px; transition:transform .08s, box-shadow .2s, filter .2s;
+    -webkit-user-select:none; user-select:none;
+  }
+  .big-btn:active { transform:scale(.94); filter:brightness(.96); }
+  .big-btn .icon { line-height:1; }
+  .big-btn .label { font-size:var(--btn-fs-label); letter-spacing:2px; opacity:.95; font-weight:600; }
+  .big-btn.side { width:var(--btn-side); height:var(--btn-side); border-radius:36px; gap:6px; }
+  .big-btn.side .icon { font-size:var(--btn-fs-icon); }
+  .big-btn.prev { background:linear-gradient(145deg,#60a5fa,#2563eb); box-shadow:0 8px 0 #1d4ed8, 0 14px 26px rgba(59,130,246,.32); }
+  .big-btn.next { background:linear-gradient(145deg,#fb923c,#ea580c); box-shadow:0 8px 0 #c2410c, 0 14px 26px rgba(234,88,12,.30); }
+  .big-btn.replay { width:var(--btn-replay); height:var(--btn-replay); border-radius:50%; gap:8px; }
+  .big-btn.replay .icon { font-size:clamp(40px,11vw,54px); }
+  .big-btn.replay .label { font-size:calc(var(--btn-fs-label) + 2px); }
+  .big-btn.playing .icon { animation:pulse 1s infinite; }
+  @keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.14)} }
+
+  /* ============ 遮罩 / Toast ============ */
+  .mask { position:absolute; inset:0; background:rgba(43,53,84,.18); z-index:15; display:none; }
+  .mask.open { display:block; }
+  .toast {
+    position:absolute; left:50%; bottom:16%; transform:translateX(-50%); z-index:40;
+    background:rgba(43,53,84,.92); color:#fff; padding:12px 20px; border-radius:14px;
+    font-size:14px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .3s;
+  }
+  .toast.show { opacity:1; }
+
+  /* ============ 平板横屏优化：整体略放大 ============ */
+  @media (min-width:700px) and (orientation:landscape) {
+    .app { max-width:min(860px, 100%); }
+    .big-btn.side { border-radius:28px; }
+  }
+  /* 非常窄的小屏（iPhone SE / 小屏安卓）防溢出 */
+  @media (max-width:360px) {
+    .ctrl { gap:6px; }
+    .big-btn.side { border-radius:28px; }
+  }
+</style>
+</head>
+<body>
+<div class="app" id="app">
+
+  <!-- 顶部：教材 + 课次 隐藏式下拉 -->
+  <header>
+    <div class="picker" id="bookPicker">
+      <span id="bookName">三年级上册</span><span class="arrow">▼</span>
+      <div class="dropdown" id="bookDropdown"></div>
+    </div>
+    <div class="picker" id="lessonPicker">
+      <span id="lessonName">第1课</span><span class="arrow">▼</span>
+      <div class="dropdown" id="lessonDropdown"></div>
+    </div>
+  </header>
+
+  <!-- 中央进度 -->
+  <main class="stage">
+    <div class="mode-tag" id="modeTag">生字听写</div>
+    <div class="progress"><b id="curNo">1</b><span class="progress-total" id="totalNo">/ 12</span></div>
+    <div class="lesson-name" id="lessonTitle"></div>
+  </main>
+
+  <!-- 模式切换 -->
+  <div class="mode-switch">
+    <button class="mode-chip active" id="modeZh">生字</button>
+    <button class="mode-chip" id="modeCy">词语</button>
+  </div>
+
+  <!-- 三个巨大按键 -->
+  <footer>
+    <div class="ctrl">
+      <button class="big-btn prev side" id="btnPrev"><span class="icon">◀</span><span class="label">上一个</span></button>
+      <button class="big-btn replay" id="btnPlay"><span class="icon">🔊</span><span class="label">重听</span></button>
+      <button class="big-btn next side" id="btnNext"><span class="icon">▶</span><span class="label">下一个</span></button>
+    </div>
+  </footer>
+
+  <div class="mask" id="mask"></div>
+  <div class="toast" id="toast"></div>
+</div>
+
+<script>
+/* ================================================================
+ * 生字词语听写 · 极简播放器（移动端/平板友好）
+ * - 前端绝不显示听写字词内容，只显示 教材/课次/进度/模式。
+ * - 每个生字/词组只播一遍；上一个 / 重听 / 下一个 手动控制。
+ * - 教材、课次均为隐藏式下拉按钮。
+ * ================================================================ */
+
+let INDEX = null;
+let curSection = null;   // 当前课次 section
+let curMode = 'shengzi'; // 'shengzi' | 'ciyu'
+let curIndex = 0;
+let audioEl = null;
+let playing = false;
+
+function $(id) { return document.getElementById(id); }
+
+function getList() {
+  if (!curSection) return [];
+  return curMode === 'shengzi' ? curSection.shengzi : curSection.ciyu;
+}
+
+/* ---------------- 下拉 ---------------- */
+function setupPicker(pickerId, dropdownId, onSelect) {
+  const picker = $(pickerId), dd = $(dropdownId);
+  picker.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = dd.classList.contains('open');
+    closeAllDropdowns();
+    if (!isOpen) { dd.classList.add('open'); picker.classList.add('open'); $('mask').classList.add('open'); }
+  });
+  dd.addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (!btn) return;
+    onSelect(btn.dataset.idx !== undefined ? +btn.dataset.idx : btn.dataset.val);
+    closeAllDropdowns();
+  });
+}
+function closeAllDropdowns() {
+  document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+  document.querySelectorAll('.picker').forEach(p => p.classList.remove('open'));
+  $('mask').classList.remove('open');
+}
+$('mask').addEventListener('click', closeAllDropdowns);
+
+function renderBookDropdown() {
+  const dd = $('bookDropdown');
+  dd.innerHTML = '';
+  const b = document.createElement('button');
+  b.textContent = INDEX.book;
+  b.classList.add('active');
+  dd.appendChild(b);
+  $('bookName').textContent = INDEX.book;
+}
+function renderLessonDropdown() {
+  const dd = $('lessonDropdown');
+  dd.innerHTML = '';
+  INDEX.sections.forEach((sec, i) => {
+    const b = document.createElement('button');
+    b.dataset.idx = i;
+    const label = sec.type === 'yuandi' ? ('语文园地' + sec.unit)
+                : (sec.no + '.' + (sec.title || ('第' + sec.no + '课')));
+    b.textContent = label;
+    if (sec === curSection) b.classList.add('active');
+    dd.appendChild(b);
+  });
+  $('lessonName').textContent = curSection.type === 'yuandi'
+    ? ('语文园地' + curSection.unit) : (curSection.no + '.' + (curSection.title || ('第' + curSection.no + '课')));
+}
+
+/* ---------------- 界面渲染 ---------------- */
+function updateStage() {
+  const list = getList();
+  const total = list.length;
+  $('curNo').textContent = total ? (curIndex + 1) : 0;
+  $('totalNo').textContent = total ? ('/ ' + total) : '';
+  $('modeTag').textContent = curMode === 'shengzi' ? '生字听写' : '词语听写';
+  $('lessonTitle').textContent = curSection.type === 'yuandi'
+    ? ('语文园地' + curSection.unit) : (curSection.no + '.' + (curSection.title || ''));
+  $('modeZh').classList.toggle('active', curMode === 'shengzi');
+  $('modeCy').classList.toggle('active', curMode === 'ciyu');
+}
+
+/* ---------------- 播放（每词播一遍） ---------------- */
+function stopAudio() {
+  if (audioEl) { audioEl.pause(); audioEl = null; }
+  playing = false;
+  $('btnPlay').classList.remove('playing');
+}
+function playCurrent() {
+  const list = getList();
+  if (!list.length) { toast('本课暂无内容'); return; }
+  const item = list[curIndex];
+  if (!item || !item.audio) { toast('未找到音频'); return; }
+  stopAudio();
+  audioEl = new Audio(item.audio);
+  audioEl.preload = 'auto';
+  audioEl.playbackRate = 1;
+  audioEl.onended = () => { playing = false; $('btnPlay').classList.remove('playing'); audioEl = null; };
+  audioEl.onerror = () => { toast('音频加载失败'); playing = false; $('btnPlay').classList.remove('playing'); };
+  audioEl.play().then(() => {
+    playing = true; $('btnPlay').classList.add('playing');
+  }).catch(() => { toast('无法播放'); });
+}
+function goto(i) {
+  const list = getList();
+  if (!list.length) return;
+  if (i < 0) i = list.length - 1;
+  if (i >= list.length) i = 0;
+  curIndex = i;
+  updateStage();
+}
+function next() { stopAudio(); goto(curIndex + 1); playCurrent(); }
+function prev() { stopAudio(); goto(curIndex - 1); playCurrent(); }
+function replay() { playCurrent(); }
+
+/* ---------------- 事件绑定 ---------------- */
+$('btnPlay').onclick = replay;
+$('btnNext').onclick = next;
+$('btnPrev').onclick = prev;
+$('modeZh').onclick = () => { if (curMode === 'shengzi') return; stopAudio(); curMode = 'shengzi'; curIndex = 0; updateStage(); };
+$('modeCy').onclick = () => { if (curMode === 'ciyu') return; stopAudio(); curMode = 'ciyu'; curIndex = 0; updateStage(); };
+setupPicker('lessonPicker', 'lessonDropdown', (idx) => {
+  if (idx !== undefined && INDEX.sections[idx] !== curSection) {
+    stopAudio();
+    curSection = INDEX.sections[idx];
+    curIndex = 0;
+    renderLessonDropdown();
+    updateStage();
+  }
+});
+
+// 键盘支持（电脑端调试用）
+document.addEventListener('keydown', (e) => {
+  if (!INDEX) return;
+  if (e.key === 'ArrowRight') next();
+  else if (e.key === 'ArrowLeft') prev();
+  else if (e.key === ' ' || e.key === 'r' || e.key === 'R') { e.preventDefault(); replay(); }
+});
+
+/* ---------------- Toast ---------------- */
+let toastTimer = null;
+function toast(msg) {
+  const t = $('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+/* ---------------- 初始化 ---------------- */
+function init() {
+  if (!INDEX || !INDEX.sections || !INDEX.sections.length) { toast('索引为空'); return; }
+  curSection = INDEX.sections[0];
+  curIndex = 0;
+  renderBookDropdown();
+  renderLessonDropdown();
+  updateStage();
+}
+function loadIndex(url) {
+  return fetch(url, { cache: 'no-cache' })
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { INDEX = d; init(); })
+    .catch(err => { console.warn('索引加载失败', err); toast('索引加载失败'); });
+}
+(function () {
+  const m = location.search.match(/[?&]index=([^&]+)/);
+  const url = m ? decodeURIComponent(m[1]) : 'data/三年级上册_index.json';
+  loadIndex(url);
+})();
+
+/* PWA：注册 Service Worker（须 HTTPS；本地/HTTP 下静默跳过） */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js').catch(() => {});
+  });
+}
+
+console.log('极简听写台就绪');
+</script>
+</body>
+</html>
