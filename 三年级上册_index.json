@@ -1,0 +1,3762 @@
+{
+  "book": "三年级上册",
+  "grade": 3,
+  "semester": "上册",
+  "edition": "2026人教版（部编版）",
+  "audio_base": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s",
+  "audio_prefix": "3s",
+  "interval_sec": 2,
+  "repeat_times": 3,
+  "sections": [
+    {
+      "type": "lesson",
+      "unit": 1,
+      "no": 1,
+      "title": "大青树下的小学",
+      "key": "l01",
+      "shengzi": [
+        {
+          "char": "坡",
+          "pinyin": "pō",
+          "shengmu": "p",
+          "yunmu": "ō",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/001.mp3",
+          "read_text": "坡，山坡的坡，爬坡的坡"
+        },
+        {
+          "char": "球",
+          "pinyin": "qiú",
+          "shengmu": "q",
+          "yunmu": "iú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/002.mp3",
+          "read_text": "球，皮球的球，地球的球"
+        },
+        {
+          "char": "招",
+          "pinyin": "zhāo",
+          "shengmu": "zh",
+          "yunmu": "āo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/003.mp3",
+          "read_text": "招，招呼的招，招手的招"
+        },
+        {
+          "char": "呼",
+          "pinyin": "hū",
+          "shengmu": "h",
+          "yunmu": "ū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/004.mp3",
+          "read_text": "呼，招呼的呼，欢呼的呼"
+        },
+        {
+          "char": "飘",
+          "pinyin": "piāo",
+          "shengmu": "p",
+          "yunmu": "iāo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/005.mp3",
+          "read_text": "飘，飘扬的飘，飘落的飘"
+        },
+        {
+          "char": "扬",
+          "pinyin": "yáng",
+          "shengmu": "y",
+          "yunmu": "áng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/006.mp3",
+          "read_text": "扬，飘扬的扬，飞扬的扬"
+        },
+        {
+          "char": "读",
+          "pinyin": "dú",
+          "shengmu": "d",
+          "yunmu": "ú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/007.mp3",
+          "read_text": "读，读书的读，朗读的读"
+        },
+        {
+          "char": "热",
+          "pinyin": "rè",
+          "shengmu": "r",
+          "yunmu": "è",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/008.mp3",
+          "read_text": "热，热闹的热，热水的热"
+        },
+        {
+          "char": "闹",
+          "pinyin": "nào",
+          "shengmu": "n",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/009.mp3",
+          "read_text": "闹，热闹的闹，闹钟的闹"
+        },
+        {
+          "char": "粗",
+          "pinyin": "cū",
+          "shengmu": "c",
+          "yunmu": "ū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/010.mp3",
+          "read_text": "粗，粗壮的粗，粗心的粗"
+        },
+        {
+          "char": "壮",
+          "pinyin": "zhuàng",
+          "shengmu": "zh",
+          "yunmu": "uàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/011.mp3",
+          "read_text": "壮，粗壮的壮，壮大的壮"
+        },
+        {
+          "char": "洁",
+          "pinyin": "jié",
+          "shengmu": "j",
+          "yunmu": "ié",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/sz/012.mp3",
+          "read_text": "洁，洁白的洁，清洁的洁"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "山坡",
+          "pinyin": "shānpō",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/001.mp3",
+          "read_text": "山坡"
+        },
+        {
+          "word": "学校",
+          "pinyin": "xuéxiào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/002.mp3",
+          "read_text": "学校"
+        },
+        {
+          "word": "飘扬",
+          "pinyin": "piāoyáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/003.mp3",
+          "read_text": "飘扬"
+        },
+        {
+          "word": "课文",
+          "pinyin": "kèwén",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/004.mp3",
+          "read_text": "课文"
+        },
+        {
+          "word": "声音",
+          "pinyin": "shēngyīn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/005.mp3",
+          "read_text": "声音"
+        },
+        {
+          "word": "招引",
+          "pinyin": "zhāoyǐn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/006.mp3",
+          "read_text": "招引"
+        },
+        {
+          "word": "热闹",
+          "pinyin": "rènào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/007.mp3",
+          "read_text": "热闹"
+        },
+        {
+          "word": "古老",
+          "pinyin": "gǔlǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/008.mp3",
+          "read_text": "古老"
+        },
+        {
+          "word": "粗壮",
+          "pinyin": "cūzhuàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/009.mp3",
+          "read_text": "粗壮"
+        },
+        {
+          "word": "枝干",
+          "pinyin": "zhīgàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/010.mp3",
+          "read_text": "枝干"
+        },
+        {
+          "word": "洁白",
+          "pinyin": "jiébái",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l01/cy/011.mp3",
+          "read_text": "洁白"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 1,
+      "no": 2,
+      "title": "花的学校",
+      "key": "l02",
+      "shengzi": [
+        {
+          "char": "轰",
+          "pinyin": "hōng",
+          "shengmu": "h",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/001.mp3",
+          "read_text": "轰，轰响的轰，轰炸的轰"
+        },
+        {
+          "char": "湿",
+          "pinyin": "shī",
+          "shengmu": "",
+          "yunmu": "shī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/002.mp3",
+          "read_text": "湿，湿润的湿，潮湿的湿"
+        },
+        {
+          "char": "润",
+          "pinyin": "rùn",
+          "shengmu": "r",
+          "yunmu": "ùn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/003.mp3",
+          "read_text": "润，湿润的润，滋润的润"
+        },
+        {
+          "char": "笛",
+          "pinyin": "dí",
+          "shengmu": "d",
+          "yunmu": "í",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/004.mp3",
+          "read_text": "笛，风笛的笛，笛子的笛"
+        },
+        {
+          "char": "狂",
+          "pinyin": "kuáng",
+          "shengmu": "k",
+          "yunmu": "uáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/005.mp3",
+          "read_text": "狂，狂欢的狂，狂风的狂"
+        },
+        {
+          "char": "功",
+          "pinyin": "gōng",
+          "shengmu": "g",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/006.mp3",
+          "read_text": "功，功课的功，用功的功"
+        },
+        {
+          "char": "罚",
+          "pinyin": "fá",
+          "shengmu": "f",
+          "yunmu": "á",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/007.mp3",
+          "read_text": "罚，惩罚的罚，罚款的罚"
+        },
+        {
+          "char": "互",
+          "pinyin": "hù",
+          "shengmu": "h",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/008.mp3",
+          "read_text": "互，互相的互，互助的互"
+        },
+        {
+          "char": "碰",
+          "pinyin": "pèng",
+          "shengmu": "p",
+          "yunmu": "èng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/009.mp3",
+          "read_text": "碰，碰撞的碰，碰到的碰"
+        },
+        {
+          "char": "黄",
+          "pinyin": "huáng",
+          "shengmu": "h",
+          "yunmu": "uáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/010.mp3",
+          "read_text": "黄，金黄的黄，黄色的黄"
+        },
+        {
+          "char": "急",
+          "pinyin": "jí",
+          "shengmu": "j",
+          "yunmu": "í",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/sz/011.mp3",
+          "read_text": "急，着急的急，急忙的急"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "轰响",
+          "pinyin": "hōngxiǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/001.mp3",
+          "read_text": "轰响"
+        },
+        {
+          "word": "阵雨",
+          "pinyin": "zhènyǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/002.mp3",
+          "read_text": "阵雨"
+        },
+        {
+          "word": "湿润",
+          "pinyin": "shīrùn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/003.mp3",
+          "read_text": "湿润"
+        },
+        {
+          "word": "风笛",
+          "pinyin": "fēngdí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/004.mp3",
+          "read_text": "风笛"
+        },
+        {
+          "word": "狂欢",
+          "pinyin": "kuánghuān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/005.mp3",
+          "read_text": "狂欢"
+        },
+        {
+          "word": "觉得",
+          "pinyin": "juéde",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/006.mp3",
+          "read_text": "觉得"
+        },
+        {
+          "word": "功课",
+          "pinyin": "gōngkè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/007.mp3",
+          "read_text": "功课"
+        },
+        {
+          "word": "放学",
+          "pinyin": "fàngxué",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/008.mp3",
+          "read_text": "放学"
+        },
+        {
+          "word": "老师",
+          "pinyin": "lǎoshī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/009.mp3",
+          "read_text": "老师"
+        },
+        {
+          "word": "急急忙忙",
+          "pinyin": "jíjímángmáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l02/cy/010.mp3",
+          "read_text": "急急忙忙"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 2,
+      "no": 4,
+      "title": "古诗三首",
+      "key": "l04",
+      "shengzi": [
+        {
+          "char": "庭",
+          "pinyin": "tíng",
+          "shengmu": "t",
+          "yunmu": "íng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/001.mp3",
+          "read_text": "庭，家庭的庭，庭院的庭"
+        },
+        {
+          "char": "相",
+          "pinyin": "xiāng",
+          "shengmu": "x",
+          "yunmu": "iāng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/002.mp3",
+          "read_text": "相，相互的相，相信的相"
+        },
+        {
+          "char": "未",
+          "pinyin": "wèi",
+          "shengmu": "w",
+          "yunmu": "èi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/003.mp3",
+          "read_text": "未，未来的未，未必的未"
+        },
+        {
+          "char": "寒",
+          "pinyin": "hán",
+          "shengmu": "h",
+          "yunmu": "án",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/004.mp3",
+          "read_text": "寒，寒冷的寒，严寒的寒"
+        },
+        {
+          "char": "径",
+          "pinyin": "jìng",
+          "shengmu": "j",
+          "yunmu": "ìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/005.mp3",
+          "read_text": "径，小径的径，路径的径"
+        },
+        {
+          "char": "斜",
+          "pinyin": "xié",
+          "shengmu": "x",
+          "yunmu": "ié",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/006.mp3",
+          "read_text": "斜，斜坡的斜，斜线的斜"
+        },
+        {
+          "char": "枫",
+          "pinyin": "fēng",
+          "shengmu": "f",
+          "yunmu": "ēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/007.mp3",
+          "read_text": "枫，枫树的枫，枫叶的枫"
+        },
+        {
+          "char": "霜",
+          "pinyin": "shuāng",
+          "shengmu": "sh",
+          "yunmu": "uāng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/008.mp3",
+          "read_text": "霜，秋霜的霜，霜降的霜"
+        },
+        {
+          "char": "挑",
+          "pinyin": "tiāo",
+          "shengmu": "t",
+          "yunmu": "iāo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/009.mp3",
+          "read_text": "挑，挑选的挑，挑水的挑"
+        },
+        {
+          "char": "深",
+          "pinyin": "shēn",
+          "shengmu": "sh",
+          "yunmu": "ēn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/010.mp3",
+          "read_text": "深，深处的深，深夜的深"
+        },
+        {
+          "char": "落",
+          "pinyin": "luò",
+          "shengmu": "l",
+          "yunmu": "uò",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l04/sz/011.mp3",
+          "read_text": "落，落叶的落，落下的落"
+        }
+      ],
+      "ciyu": []
+    },
+    {
+      "type": "lesson",
+      "unit": 2,
+      "no": 5,
+      "title": "铺满金色巴掌的水泥道",
+      "key": "l05",
+      "shengzi": [
+        {
+          "char": "朗",
+          "pinyin": "lǎng",
+          "shengmu": "l",
+          "yunmu": "ǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/001.mp3",
+          "read_text": "朗，明朗的朗，朗读的朗"
+        },
+        {
+          "char": "晶",
+          "pinyin": "jīng",
+          "shengmu": "j",
+          "yunmu": "īng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/002.mp3",
+          "read_text": "晶，亮晶晶的晶，晶莹的晶"
+        },
+        {
+          "char": "珠",
+          "pinyin": "zhū",
+          "shengmu": "zh",
+          "yunmu": "ū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/003.mp3",
+          "read_text": "珠，珍珠的珠，珠子的珠"
+        },
+        {
+          "char": "粘",
+          "pinyin": "zhān",
+          "shengmu": "zh",
+          "yunmu": "ān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/004.mp3",
+          "read_text": "粘，粘贴的粘，粘住的粘"
+        },
+        {
+          "char": "印",
+          "pinyin": "yìn",
+          "shengmu": "",
+          "yunmu": "yìn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/005.mp3",
+          "read_text": "印，图案的印，脚印的印"
+        },
+        {
+          "char": "案",
+          "pinyin": "àn",
+          "shengmu": "",
+          "yunmu": "àn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/006.mp3",
+          "read_text": "案，图案的案，方案的案"
+        },
+        {
+          "char": "展",
+          "pinyin": "zhǎn",
+          "shengmu": "zh",
+          "yunmu": "ǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/007.mp3",
+          "read_text": "展，展开的展，展示的展"
+        },
+        {
+          "char": "列",
+          "pinyin": "liè",
+          "shengmu": "l",
+          "yunmu": "iè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/008.mp3",
+          "read_text": "列，排列的列，列车的列"
+        },
+        {
+          "char": "规",
+          "pinyin": "guī",
+          "shengmu": "g",
+          "yunmu": "uī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/009.mp3",
+          "read_text": "规，规则的规，规定的规"
+        },
+        {
+          "char": "则",
+          "pinyin": "zé",
+          "shengmu": "z",
+          "yunmu": "é",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/010.mp3",
+          "read_text": "则，规则的则，原则的则"
+        },
+        {
+          "char": "凌",
+          "pinyin": "líng",
+          "shengmu": "l",
+          "yunmu": "íng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/011.mp3",
+          "read_text": "凌，凌乱的凌，冰凌的凌"
+        },
+        {
+          "char": "乱",
+          "pinyin": "luàn",
+          "shengmu": "l",
+          "yunmu": "uàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/sz/012.mp3",
+          "read_text": "乱，凌乱的乱，乱跑的乱"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "秋风",
+          "pinyin": "qiūfēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/001.mp3",
+          "read_text": "秋风"
+        },
+        {
+          "word": "放晴",
+          "pinyin": "fàngqíng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/002.mp3",
+          "read_text": "放晴"
+        },
+        {
+          "word": "明朗",
+          "pinyin": "mínglǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/003.mp3",
+          "read_text": "明朗"
+        },
+        {
+          "word": "地面",
+          "pinyin": "dìmiàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/004.mp3",
+          "read_text": "地面"
+        },
+        {
+          "word": "亮晶晶",
+          "pinyin": "liàngjīngjīng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/005.mp3",
+          "read_text": "亮晶晶"
+        },
+        {
+          "word": "落叶",
+          "pinyin": "luòyè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/006.mp3",
+          "read_text": "落叶"
+        },
+        {
+          "word": "图案",
+          "pinyin": "túàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/007.mp3",
+          "read_text": "图案"
+        },
+        {
+          "word": "闪闪发光",
+          "pinyin": "shǎnshǎnfāguāng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/008.mp3",
+          "read_text": "闪闪发光"
+        },
+        {
+          "word": "尽头",
+          "pinyin": "jìntóu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/009.mp3",
+          "read_text": "尽头"
+        },
+        {
+          "word": "排列",
+          "pinyin": "páiliè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/010.mp3",
+          "read_text": "排列"
+        },
+        {
+          "word": "规则",
+          "pinyin": "guīzé",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/011.mp3",
+          "read_text": "规则"
+        },
+        {
+          "word": "凌乱",
+          "pinyin": "língluàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/012.mp3",
+          "read_text": "凌乱"
+        },
+        {
+          "word": "歌唱",
+          "pinyin": "gēchàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/013.mp3",
+          "read_text": "歌唱"
+        },
+        {
+          "word": "迟到",
+          "pinyin": "chídào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l05/cy/014.mp3",
+          "read_text": "迟到"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 2,
+      "no": 6,
+      "title": "秋天的雨",
+      "key": "l06",
+      "shengzi": [
+        {
+          "char": "凉",
+          "pinyin": "liáng",
+          "shengmu": "l",
+          "yunmu": "iáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/001.mp3",
+          "read_text": "凉，清凉的凉，凉快的凉"
+        },
+        {
+          "char": "杏",
+          "pinyin": "xìng",
+          "shengmu": "x",
+          "yunmu": "ìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/002.mp3",
+          "read_text": "杏，银杏的杏，杏子的杏"
+        },
+        {
+          "char": "枚",
+          "pinyin": "méi",
+          "shengmu": "m",
+          "yunmu": "éi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/003.mp3",
+          "read_text": "枚，一枚的枚，几枚的枚"
+        },
+        {
+          "char": "邮",
+          "pinyin": "yóu",
+          "shengmu": "y",
+          "yunmu": "óu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/004.mp3",
+          "read_text": "邮，邮票的邮，邮局的邮"
+        },
+        {
+          "char": "票",
+          "pinyin": "piào",
+          "shengmu": "p",
+          "yunmu": "iào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/005.mp3",
+          "read_text": "票，邮票的票，车票的票"
+        },
+        {
+          "char": "爽",
+          "pinyin": "shuǎng",
+          "shengmu": "sh",
+          "yunmu": "uǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/006.mp3",
+          "read_text": "爽，凉爽的爽，爽快的爽"
+        },
+        {
+          "char": "挤",
+          "pinyin": "jǐ",
+          "shengmu": "j",
+          "yunmu": "ǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/007.mp3",
+          "read_text": "挤，挤满的挤，拥挤的挤"
+        },
+        {
+          "char": "争",
+          "pinyin": "zhēng",
+          "shengmu": "zh",
+          "yunmu": "ēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/008.mp3",
+          "read_text": "争，争着的争，争夺的争"
+        },
+        {
+          "char": "菊",
+          "pinyin": "jú",
+          "shengmu": "j",
+          "yunmu": "ú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/009.mp3",
+          "read_text": "菊，菊花的菊，菊花茶的菊"
+        },
+        {
+          "char": "频",
+          "pinyin": "pín",
+          "shengmu": "p",
+          "yunmu": "ín",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/010.mp3",
+          "read_text": "频，频频的频，频道的频"
+        },
+        {
+          "char": "勾",
+          "pinyin": "gōu",
+          "shengmu": "g",
+          "yunmu": "ōu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/011.mp3",
+          "read_text": "勾，勾住的勾，钩子的勾"
+        },
+        {
+          "char": "挖",
+          "pinyin": "wā",
+          "shengmu": "w",
+          "yunmu": "ā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/012.mp3",
+          "read_text": "挖，挖开的挖，挖土的挖"
+        },
+        {
+          "char": "油",
+          "pinyin": "yóu",
+          "shengmu": "y",
+          "yunmu": "óu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/sz/013.mp3",
+          "read_text": "油，油亮的油，加油的油"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "秋天",
+          "pinyin": "qiūtiān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/001.mp3",
+          "read_text": "秋天"
+        },
+        {
+          "word": "清凉",
+          "pinyin": "qīngliáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/002.mp3",
+          "read_text": "清凉"
+        },
+        {
+          "word": "炎热",
+          "pinyin": "yánrè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/003.mp3",
+          "read_text": "炎热"
+        },
+        {
+          "word": "枫树",
+          "pinyin": "fēngshù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/004.mp3",
+          "read_text": "枫树"
+        },
+        {
+          "word": "邮票",
+          "pinyin": "yóupiào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/005.mp3",
+          "read_text": "邮票"
+        },
+        {
+          "word": "凉爽",
+          "pinyin": "liángshuǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/006.mp3",
+          "read_text": "凉爽"
+        },
+        {
+          "word": "果树",
+          "pinyin": "guǒshù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/007.mp3",
+          "read_text": "果树"
+        },
+        {
+          "word": "菊花",
+          "pinyin": "júhuā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/008.mp3",
+          "read_text": "菊花"
+        },
+        {
+          "word": "仙子",
+          "pinyin": "xiānzi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/009.mp3",
+          "read_text": "仙子"
+        },
+        {
+          "word": "频频",
+          "pinyin": "pínpín",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/010.mp3",
+          "read_text": "频频"
+        },
+        {
+          "word": "气味",
+          "pinyin": "qìwèi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/011.mp3",
+          "read_text": "气味"
+        },
+        {
+          "word": "香甜",
+          "pinyin": "xiāngtián",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/012.mp3",
+          "read_text": "香甜"
+        },
+        {
+          "word": "松果",
+          "pinyin": "sōngguǒ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/013.mp3",
+          "read_text": "松果"
+        },
+        {
+          "word": "丰收",
+          "pinyin": "fēngshōu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l06/cy/014.mp3",
+          "read_text": "丰收"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 3,
+      "no": 8,
+      "title": "总也倒不了的老屋",
+      "key": "l08",
+      "shengzi": [
+        {
+          "char": "屋",
+          "pinyin": "wū",
+          "shengmu": "",
+          "yunmu": "wū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/001.mp3",
+          "read_text": "屋，屋子的屋，房屋的屋"
+        },
+        {
+          "char": "板",
+          "pinyin": "bǎn",
+          "shengmu": "b",
+          "yunmu": "ǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/002.mp3",
+          "read_text": "板，门板的板，木板的板"
+        },
+        {
+          "char": "准",
+          "pinyin": "zhǔn",
+          "shengmu": "zh",
+          "yunmu": "ǔn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/003.mp3",
+          "read_text": "准，准备的准，准时的准"
+        },
+        {
+          "char": "备",
+          "pinyin": "bèi",
+          "shengmu": "b",
+          "yunmu": "èi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/004.mp3",
+          "read_text": "备，准备的备，备用的备"
+        },
+        {
+          "char": "等",
+          "pinyin": "děng",
+          "shengmu": "d",
+          "yunmu": "ěng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/005.mp3",
+          "read_text": "等，等待的等，等到的等"
+        },
+        {
+          "char": "暴",
+          "pinyin": "bào",
+          "shengmu": "b",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/006.mp3",
+          "read_text": "暴，暴风雨的暴，暴雨的暴"
+        },
+        {
+          "char": "哦",
+          "pinyin": "ó",
+          "shengmu": "",
+          "yunmu": "ó",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/007.mp3",
+          "read_text": "哦，哦的哦，哦哦的哦"
+        },
+        {
+          "char": "钻",
+          "pinyin": "zuān",
+          "shengmu": "z",
+          "yunmu": "uān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/008.mp3",
+          "read_text": "钻，钻出来的钻，钻洞的钻"
+        },
+        {
+          "char": "爬",
+          "pinyin": "pá",
+          "shengmu": "p",
+          "yunmu": "á",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/009.mp3",
+          "read_text": "爬，爬出来的爬，爬山的爬"
+        },
+        {
+          "char": "漂",
+          "pinyin": "piào",
+          "shengmu": "p",
+          "yunmu": "iào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/010.mp3",
+          "read_text": "漂，漂亮的漂，漂流的漂"
+        },
+        {
+          "char": "晒",
+          "pinyin": "shài",
+          "shengmu": "sh",
+          "yunmu": "ài",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/sz/011.mp3",
+          "read_text": "晒，晒太阳的晒，晒干的晒"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "门板",
+          "pinyin": "ménbǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/001.mp3",
+          "read_text": "门板"
+        },
+        {
+          "word": "准备",
+          "pinyin": "zhǔnbèi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/002.mp3",
+          "read_text": "准备"
+        },
+        {
+          "word": "旁边",
+          "pinyin": "pángbiān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/003.mp3",
+          "read_text": "旁边"
+        },
+        {
+          "word": "暴风雨",
+          "pinyin": "bàofēngyǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/004.mp3",
+          "read_text": "暴风雨"
+        },
+        {
+          "word": "安心",
+          "pinyin": "ānxīn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/005.mp3",
+          "read_text": "安心"
+        },
+        {
+          "word": "低头",
+          "pinyin": "dītóu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/006.mp3",
+          "read_text": "低头"
+        },
+        {
+          "word": "吃力",
+          "pinyin": "chīlì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/007.mp3",
+          "read_text": "吃力"
+        },
+        {
+          "word": "再见",
+          "pinyin": "zàijiàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/008.mp3",
+          "read_text": "再见"
+        },
+        {
+          "word": "母鸡",
+          "pinyin": "mǔjī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/009.mp3",
+          "read_text": "母鸡"
+        },
+        {
+          "word": "注意",
+          "pinyin": "zhùyì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/010.mp3",
+          "read_text": "注意"
+        },
+        {
+          "word": "屋子",
+          "pinyin": "wūzi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/011.mp3",
+          "read_text": "屋子"
+        },
+        {
+          "word": "漂亮",
+          "pinyin": "piàoliang",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/012.mp3",
+          "read_text": "漂亮"
+        },
+        {
+          "word": "意思",
+          "pinyin": "yìsi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/013.mp3",
+          "read_text": "意思"
+        },
+        {
+          "word": "因此",
+          "pinyin": "yīncǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l08/cy/014.mp3",
+          "read_text": "因此"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 4,
+      "no": 11,
+      "title": "宝葫芦的秘密（节选）",
+      "key": "l11",
+      "shengzi": [
+        {
+          "char": "葫",
+          "pinyin": "hú",
+          "shengmu": "h",
+          "yunmu": "ú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/001.mp3",
+          "read_text": "葫，葫芦的葫，葫芦娃的葫"
+        },
+        {
+          "char": "芦",
+          "pinyin": "lú",
+          "shengmu": "l",
+          "yunmu": "ú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/002.mp3",
+          "read_text": "芦，葫芦的芦，芦苇的芦"
+        },
+        {
+          "char": "错",
+          "pinyin": "cuò",
+          "shengmu": "c",
+          "yunmu": "uò",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/003.mp3",
+          "read_text": "错，不错的错，错误的错"
+        },
+        {
+          "char": "普",
+          "pinyin": "pǔ",
+          "shengmu": "p",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/004.mp3",
+          "read_text": "普，普通的普，普通话的普"
+        },
+        {
+          "char": "宫",
+          "pinyin": "gōng",
+          "shengmu": "g",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/005.mp3",
+          "read_text": "宫，皇宫的宫，宫殿的宫"
+        },
+        {
+          "char": "肯",
+          "pinyin": "kěn",
+          "shengmu": "k",
+          "yunmu": "ěn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/006.mp3",
+          "read_text": "肯，不肯的肯，肯定的肯"
+        },
+        {
+          "char": "冒",
+          "pinyin": "mào",
+          "shengmu": "m",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/007.mp3",
+          "read_text": "冒，冒出来的冒，冒险的冒"
+        },
+        {
+          "char": "式",
+          "pinyin": "shì",
+          "shengmu": "",
+          "yunmu": "shì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/008.mp3",
+          "read_text": "式，式样的式，方式的式"
+        },
+        {
+          "char": "怜",
+          "pinyin": "lián",
+          "shengmu": "l",
+          "yunmu": "ián",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/sz/009.mp3",
+          "read_text": "怜，可怜的怜，怜爱的怜"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "声明",
+          "pinyin": "shēngmíng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/001.mp3",
+          "read_text": "声明"
+        },
+        {
+          "word": "神仙",
+          "pinyin": "shénxiān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/002.mp3",
+          "read_text": "神仙"
+        },
+        {
+          "word": "普通",
+          "pinyin": "pǔtōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/003.mp3",
+          "read_text": "普通"
+        },
+        {
+          "word": "让步",
+          "pinyin": "ràngbù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/004.mp3",
+          "read_text": "让步"
+        },
+        {
+          "word": "条件",
+          "pinyin": "tiáojiàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/005.mp3",
+          "read_text": "条件"
+        },
+        {
+          "word": "指甲",
+          "pinyin": "zhǐjiǎ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/006.mp3",
+          "read_text": "指甲"
+        },
+        {
+          "word": "得到",
+          "pinyin": "dédào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/007.mp3",
+          "read_text": "得到"
+        },
+        {
+          "word": "衣服",
+          "pinyin": "yīfú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/008.mp3",
+          "read_text": "衣服"
+        },
+        {
+          "word": "所以",
+          "pinyin": "suǒyǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/009.mp3",
+          "read_text": "所以"
+        },
+        {
+          "word": "要是",
+          "pinyin": "yàoshì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/010.mp3",
+          "read_text": "要是"
+        },
+        {
+          "word": "同学",
+          "pinyin": "tóngxué",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/011.mp3",
+          "read_text": "同学"
+        },
+        {
+          "word": "可怜",
+          "pinyin": "kělián",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/012.mp3",
+          "read_text": "可怜"
+        },
+        {
+          "word": "最好",
+          "pinyin": "zuìhǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/013.mp3",
+          "read_text": "最好"
+        },
+        {
+          "word": "科学",
+          "pinyin": "kēxué",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l11/cy/014.mp3",
+          "read_text": "科学"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 4,
+      "no": 12,
+      "title": "在牛肚子里旅行",
+      "key": "l12",
+      "shengzi": [
+        {
+          "char": "旅",
+          "pinyin": "lǚ",
+          "shengmu": "l",
+          "yunmu": "ǚ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/001.mp3",
+          "read_text": "旅，旅行的旅，旅游的旅"
+        },
+        {
+          "char": "另",
+          "pinyin": "lìng",
+          "shengmu": "l",
+          "yunmu": "ìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/002.mp3",
+          "read_text": "另，另外的另，另一个的另"
+        },
+        {
+          "char": "睛",
+          "pinyin": "jīng",
+          "shengmu": "j",
+          "yunmu": "īng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/003.mp3",
+          "read_text": "睛，眼睛的睛，点睛的睛"
+        },
+        {
+          "char": "及",
+          "pinyin": "jí",
+          "shengmu": "j",
+          "yunmu": "í",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/004.mp3",
+          "read_text": "及，来得及的及，及时的及"
+        },
+        {
+          "char": "卷",
+          "pinyin": "juǎn",
+          "shengmu": "j",
+          "yunmu": "uǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/005.mp3",
+          "read_text": "卷，卷起来的卷，卷子的卷"
+        },
+        {
+          "char": "救",
+          "pinyin": "jiù",
+          "shengmu": "j",
+          "yunmu": "iù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/006.mp3",
+          "read_text": "救，救命的救，救人的救"
+        },
+        {
+          "char": "命",
+          "pinyin": "mìng",
+          "shengmu": "m",
+          "yunmu": "ìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/007.mp3",
+          "read_text": "命，救命的命，生命的命"
+        },
+        {
+          "char": "尾",
+          "pinyin": "wěi",
+          "shengmu": "w",
+          "yunmu": "ěi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/008.mp3",
+          "read_text": "尾，尾巴的尾，末尾的尾"
+        },
+        {
+          "char": "齿",
+          "pinyin": "chǐ",
+          "shengmu": "",
+          "yunmu": "chǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/009.mp3",
+          "read_text": "齿，牙齿的齿，齿轮的齿"
+        },
+        {
+          "char": "胃",
+          "pinyin": "wèi",
+          "shengmu": "w",
+          "yunmu": "èi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/010.mp3",
+          "read_text": "胃，肠胃的胃，胃口的胃"
+        },
+        {
+          "char": "管",
+          "pinyin": "guǎn",
+          "shengmu": "g",
+          "yunmu": "uǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/011.mp3",
+          "read_text": "管，水管的管，管理的管"
+        },
+        {
+          "char": "刚",
+          "pinyin": "gāng",
+          "shengmu": "g",
+          "yunmu": "āng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/012.mp3",
+          "read_text": "刚，刚才的刚，刚刚的刚"
+        },
+        {
+          "char": "咬",
+          "pinyin": "yǎo",
+          "shengmu": "y",
+          "yunmu": "ǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/sz/013.mp3",
+          "read_text": "咬，咬住的咬，咬人的咬"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "旅行",
+          "pinyin": "lǚxíng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/001.mp3",
+          "read_text": "旅行"
+        },
+        {
+          "word": "要好",
+          "pinyin": "yàohǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/002.mp3",
+          "read_text": "要好"
+        },
+        {
+          "word": "答应",
+          "pinyin": "dāying",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/003.mp3",
+          "read_text": "答应"
+        },
+        {
+          "word": "做梦",
+          "pinyin": "zuòmèng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/004.mp3",
+          "read_text": "做梦"
+        },
+        {
+          "word": "来得及",
+          "pinyin": "láidejí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/005.mp3",
+          "read_text": "来得及"
+        },
+        {
+          "word": "救命",
+          "pinyin": "jiùmìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/006.mp3",
+          "read_text": "救命"
+        },
+        {
+          "word": "大吃一惊",
+          "pinyin": "dàchīyījīng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/007.mp3",
+          "read_text": "大吃一惊"
+        },
+        {
+          "word": "尾巴",
+          "pinyin": "wěiba",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/008.mp3",
+          "read_text": "尾巴"
+        },
+        {
+          "word": "牙齿",
+          "pinyin": "yáchǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/009.mp3",
+          "read_text": "牙齿"
+        },
+        {
+          "word": "肚皮",
+          "pinyin": "dùpí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/010.mp3",
+          "read_text": "肚皮"
+        },
+        {
+          "word": "食物",
+          "pinyin": "shíwù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/011.mp3",
+          "read_text": "食物"
+        },
+        {
+          "word": "消化",
+          "pinyin": "xiāohuà",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/012.mp3",
+          "read_text": "消化"
+        },
+        {
+          "word": "当然",
+          "pinyin": "dāngrán",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/013.mp3",
+          "read_text": "当然"
+        },
+        {
+          "word": "刚才",
+          "pinyin": "gāngcái",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/014.mp3",
+          "read_text": "刚才"
+        },
+        {
+          "word": "知觉",
+          "pinyin": "zhījué",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/015.mp3",
+          "read_text": "知觉"
+        },
+        {
+          "word": "光亮",
+          "pinyin": "guāngliàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l12/cy/016.mp3",
+          "read_text": "光亮"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 5,
+      "no": 14,
+      "title": "搭船的鸟",
+      "key": "l14",
+      "shengzi": [
+        {
+          "char": "搭",
+          "pinyin": "dā",
+          "shengmu": "d",
+          "yunmu": "ā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/001.mp3",
+          "read_text": "搭，搭船的搭，搭积木的搭"
+        },
+        {
+          "char": "亲",
+          "pinyin": "qīn",
+          "shengmu": "q",
+          "yunmu": "īn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/002.mp3",
+          "read_text": "亲，母亲的亲，亲人的亲"
+        },
+        {
+          "char": "祖",
+          "pinyin": "zǔ",
+          "shengmu": "z",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/003.mp3",
+          "read_text": "祖，外祖父的祖，祖国的祖"
+        },
+        {
+          "char": "披",
+          "pinyin": "pī",
+          "shengmu": "p",
+          "yunmu": "ī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/004.mp3",
+          "read_text": "披，披着的披，披上的披"
+        },
+        {
+          "char": "摇",
+          "pinyin": "yáo",
+          "shengmu": "y",
+          "yunmu": "áo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/005.mp3",
+          "read_text": "摇，摇动的摇，摇晃的摇"
+        },
+        {
+          "char": "停",
+          "pinyin": "tíng",
+          "shengmu": "t",
+          "yunmu": "íng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/006.mp3",
+          "read_text": "停，停下的停，停车的停"
+        },
+        {
+          "char": "羽",
+          "pinyin": "yǔ",
+          "shengmu": "",
+          "yunmu": "yǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/007.mp3",
+          "read_text": "羽，羽毛的羽，羽毛球的羽"
+        },
+        {
+          "char": "翠",
+          "pinyin": "cuì",
+          "shengmu": "c",
+          "yunmu": "uì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/008.mp3",
+          "read_text": "翠，翠绿的翠，翠鸟的翠"
+        },
+        {
+          "char": "蓝",
+          "pinyin": "lán",
+          "shengmu": "l",
+          "yunmu": "án",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/009.mp3",
+          "read_text": "蓝，蓝色的蓝，蓝天的蓝"
+        },
+        {
+          "char": "静",
+          "pinyin": "jìng",
+          "shengmu": "j",
+          "yunmu": "ìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/010.mp3",
+          "read_text": "静，静悄悄的静，安静的静"
+        },
+        {
+          "char": "悄",
+          "pinyin": "qiāo",
+          "shengmu": "q",
+          "yunmu": "iāo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/011.mp3",
+          "read_text": "悄，静悄悄的悄，悄悄话的悄"
+        },
+        {
+          "char": "吞",
+          "pinyin": "tūn",
+          "shengmu": "t",
+          "yunmu": "ūn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/012.mp3",
+          "read_text": "吞，吞下的吞，吞咽的吞"
+        },
+        {
+          "char": "捕",
+          "pinyin": "bǔ",
+          "shengmu": "b",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/sz/013.mp3",
+          "read_text": "捕，捕鱼的捕，捕捉的捕"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "母亲",
+          "pinyin": "mǔqīn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/001.mp3",
+          "read_text": "母亲"
+        },
+        {
+          "word": "外祖父",
+          "pinyin": "wàizǔfù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/002.mp3",
+          "read_text": "外祖父"
+        },
+        {
+          "word": "船夫",
+          "pinyin": "chuánfū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/003.mp3",
+          "read_text": "船夫"
+        },
+        {
+          "word": "羽毛",
+          "pinyin": "yǔmáo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/004.mp3",
+          "read_text": "羽毛"
+        },
+        {
+          "word": "翠绿",
+          "pinyin": "cuìlǜ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/005.mp3",
+          "read_text": "翠绿"
+        },
+        {
+          "word": "静悄悄",
+          "pinyin": "jìngqiāoqiāo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/006.mp3",
+          "read_text": "静悄悄"
+        },
+        {
+          "word": "翠鸟",
+          "pinyin": "cuìniǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/007.mp3",
+          "read_text": "翠鸟"
+        },
+        {
+          "word": "捕鱼",
+          "pinyin": "bǔyú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l14/cy/008.mp3",
+          "read_text": "捕鱼"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 5,
+      "no": 15,
+      "title": "金色的草地",
+      "key": "l15",
+      "shengzi": [
+        {
+          "char": "蒲",
+          "pinyin": "pú",
+          "shengmu": "p",
+          "yunmu": "ú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/001.mp3",
+          "read_text": "蒲，蒲公英的蒲，蒲扇的蒲"
+        },
+        {
+          "char": "英",
+          "pinyin": "yīng",
+          "shengmu": "",
+          "yunmu": "yīng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/002.mp3",
+          "read_text": "英，蒲公英的英，英文的英"
+        },
+        {
+          "char": "盛",
+          "pinyin": "shèng",
+          "shengmu": "sh",
+          "yunmu": "èng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/003.mp3",
+          "read_text": "盛，盛开的盛，茂盛的盛"
+        },
+        {
+          "char": "耍",
+          "pinyin": "shuǎ",
+          "shengmu": "sh",
+          "yunmu": "uǎ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/004.mp3",
+          "read_text": "耍，玩耍的耍，耍猴的耍"
+        },
+        {
+          "char": "使",
+          "pinyin": "shǐ",
+          "shengmu": "",
+          "yunmu": "shǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/005.mp3",
+          "read_text": "使，使劲的使，使用的使"
+        },
+        {
+          "char": "劲",
+          "pinyin": "jìn",
+          "shengmu": "j",
+          "yunmu": "ìn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/006.mp3",
+          "read_text": "劲，使劲的劲，干劲的劲"
+        },
+        {
+          "char": "脸",
+          "pinyin": "liǎn",
+          "shengmu": "l",
+          "yunmu": "iǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/007.mp3",
+          "read_text": "脸，笑脸的脸，洗脸的脸"
+        },
+        {
+          "char": "欠",
+          "pinyin": "qiàn",
+          "shengmu": "q",
+          "yunmu": "iàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/008.mp3",
+          "read_text": "欠，欠着的欠，哈欠的欠"
+        },
+        {
+          "char": "朝",
+          "pinyin": "cháo",
+          "shengmu": "ch",
+          "yunmu": "áo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/009.mp3",
+          "read_text": "朝，朝着的朝，朝向的朝"
+        },
+        {
+          "char": "钓",
+          "pinyin": "diào",
+          "shengmu": "d",
+          "yunmu": "iào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/010.mp3",
+          "read_text": "钓，钓鱼的钓，钓竿的钓"
+        },
+        {
+          "char": "察",
+          "pinyin": "chá",
+          "shengmu": "ch",
+          "yunmu": "á",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/011.mp3",
+          "read_text": "察，观察的察，警察的察"
+        },
+        {
+          "char": "拢",
+          "pinyin": "lǒng",
+          "shengmu": "l",
+          "yunmu": "ǒng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/012.mp3",
+          "read_text": "拢，合拢的拢，收拢的拢"
+        },
+        {
+          "char": "喜",
+          "pinyin": "xǐ",
+          "shengmu": "x",
+          "yunmu": "ǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/sz/013.mp3",
+          "read_text": "喜，喜爱的喜，喜欢的喜"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "草地",
+          "pinyin": "cǎodì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/001.mp3",
+          "read_text": "草地"
+        },
+        {
+          "word": "蒲公英",
+          "pinyin": "púgōngyīng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/002.mp3",
+          "read_text": "蒲公英"
+        },
+        {
+          "word": "盛开",
+          "pinyin": "shèngkāi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/003.mp3",
+          "read_text": "盛开"
+        },
+        {
+          "word": "玩耍",
+          "pinyin": "wánshuǎ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/004.mp3",
+          "read_text": "玩耍"
+        },
+        {
+          "word": "一本正经",
+          "pinyin": "yìběnzhèngjīng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/005.mp3",
+          "read_text": "一本正经"
+        },
+        {
+          "word": "使劲",
+          "pinyin": "shǐjìn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/006.mp3",
+          "read_text": "使劲"
+        },
+        {
+          "word": "钓鱼",
+          "pinyin": "diàoyú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/007.mp3",
+          "read_text": "钓鱼"
+        },
+        {
+          "word": "观察",
+          "pinyin": "guānchá",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/008.mp3",
+          "read_text": "观察"
+        },
+        {
+          "word": "合拢",
+          "pinyin": "hélǒng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/009.mp3",
+          "read_text": "合拢"
+        },
+        {
+          "word": "张开",
+          "pinyin": "zhāngkāi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/010.mp3",
+          "read_text": "张开"
+        },
+        {
+          "word": "喜爱",
+          "pinyin": "xǐài",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l15/cy/011.mp3",
+          "read_text": "喜爱"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 6,
+      "no": 16,
+      "title": "富饶的西沙群岛",
+      "key": "l16",
+      "shengzi": [
+        {
+          "char": "景",
+          "pinyin": "jǐng",
+          "shengmu": "j",
+          "yunmu": "ǐng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/001.mp3",
+          "read_text": "景，风景的景，景色的景"
+        },
+        {
+          "char": "优",
+          "pinyin": "yōu",
+          "shengmu": "y",
+          "yunmu": "ōu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/002.mp3",
+          "read_text": "优，优美的优，优秀的优"
+        },
+        {
+          "char": "淡",
+          "pinyin": "dàn",
+          "shengmu": "d",
+          "yunmu": "àn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/003.mp3",
+          "read_text": "淡，淡绿的淡，淡水的淡"
+        },
+        {
+          "char": "浅",
+          "pinyin": "qiǎn",
+          "shengmu": "q",
+          "yunmu": "iǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/004.mp3",
+          "read_text": "浅，浅绿的浅，浅水的浅"
+        },
+        {
+          "char": "底",
+          "pinyin": "dǐ",
+          "shengmu": "d",
+          "yunmu": "ǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/005.mp3",
+          "read_text": "底，海底的底，底下的底"
+        },
+        {
+          "char": "岩",
+          "pinyin": "yán",
+          "shengmu": "y",
+          "yunmu": "án",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/006.mp3",
+          "read_text": "岩，岩石的岩，岩洞的岩"
+        },
+        {
+          "char": "鹿",
+          "pinyin": "lù",
+          "shengmu": "l",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/007.mp3",
+          "read_text": "鹿，鹿角的鹿，梅花鹿的鹿"
+        },
+        {
+          "char": "划",
+          "pinyin": "huà",
+          "shengmu": "h",
+          "yunmu": "uà",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/008.mp3",
+          "read_text": "划，划过的划，划船的划"
+        },
+        {
+          "char": "布",
+          "pinyin": "bù",
+          "shengmu": "b",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/009.mp3",
+          "read_text": "布，布满的布，分布的布"
+        },
+        {
+          "char": "茂",
+          "pinyin": "mào",
+          "shengmu": "m",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/010.mp3",
+          "read_text": "茂，茂密的茂，茂盛的茂"
+        },
+        {
+          "char": "密",
+          "pinyin": "mì",
+          "shengmu": "m",
+          "yunmu": "ì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/011.mp3",
+          "read_text": "密，茂密的密，秘密的密"
+        },
+        {
+          "char": "厚",
+          "pinyin": "hòu",
+          "shengmu": "h",
+          "yunmu": "òu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/012.mp3",
+          "read_text": "厚，厚厚的厚，厚实的厚"
+        },
+        {
+          "char": "料",
+          "pinyin": "liào",
+          "shengmu": "l",
+          "yunmu": "iào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/sz/013.mp3",
+          "read_text": "料，肥料的料，材料的料"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "风景",
+          "pinyin": "fēngjǐng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/001.mp3",
+          "read_text": "风景"
+        },
+        {
+          "word": "优美",
+          "pinyin": "yōuměi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/002.mp3",
+          "read_text": "优美"
+        },
+        {
+          "word": "物产",
+          "pinyin": "wùchǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/003.mp3",
+          "read_text": "物产"
+        },
+        {
+          "word": "交错",
+          "pinyin": "jiāocuò",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/004.mp3",
+          "read_text": "交错"
+        },
+        {
+          "word": "岩石",
+          "pinyin": "yánshí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/005.mp3",
+          "read_text": "岩石"
+        },
+        {
+          "word": "鹿角",
+          "pinyin": "lùjiǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/006.mp3",
+          "read_text": "鹿角"
+        },
+        {
+          "word": "成群结队",
+          "pinyin": "chéngqúnjiéduì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/007.mp3",
+          "read_text": "成群结队"
+        },
+        {
+          "word": "布满",
+          "pinyin": "bùmǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/008.mp3",
+          "read_text": "布满"
+        },
+        {
+          "word": "条纹",
+          "pinyin": "tiáowén",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/009.mp3",
+          "read_text": "条纹"
+        },
+        {
+          "word": "周身",
+          "pinyin": "zhōushēn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/010.mp3",
+          "read_text": "周身"
+        },
+        {
+          "word": "皮球",
+          "pinyin": "píqiú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/011.mp3",
+          "read_text": "皮球"
+        },
+        {
+          "word": "茂密",
+          "pinyin": "màomì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/012.mp3",
+          "read_text": "茂密"
+        },
+        {
+          "word": "肥料",
+          "pinyin": "féiliào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/013.mp3",
+          "read_text": "肥料"
+        },
+        {
+          "word": "祖国",
+          "pinyin": "zǔguó",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/014.mp3",
+          "read_text": "祖国"
+        },
+        {
+          "word": "事业",
+          "pinyin": "shìyè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/015.mp3",
+          "read_text": "事业"
+        },
+        {
+          "word": "发展",
+          "pinyin": "fāzhǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l16/cy/016.mp3",
+          "read_text": "发展"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 6,
+      "no": 17,
+      "title": "海滨小城",
+      "key": "l17",
+      "shengzi": [
+        {
+          "char": "滨",
+          "pinyin": "bīn",
+          "shengmu": "b",
+          "yunmu": "īn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/001.mp3",
+          "read_text": "滨，海滨的滨，滨海的滨"
+        },
+        {
+          "char": "棕",
+          "pinyin": "zōng",
+          "shengmu": "z",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/002.mp3",
+          "read_text": "棕，棕色的棕，棕树的棕"
+        },
+        {
+          "char": "帆",
+          "pinyin": "fān",
+          "shengmu": "f",
+          "yunmu": "ān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/003.mp3",
+          "read_text": "帆，机帆船的帆，风帆的帆"
+        },
+        {
+          "char": "灰",
+          "pinyin": "huī",
+          "shengmu": "h",
+          "yunmu": "uī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/004.mp3",
+          "read_text": "灰，灰色的灰，灰尘的灰"
+        },
+        {
+          "char": "跟",
+          "pinyin": "gēn",
+          "shengmu": "g",
+          "yunmu": "ēn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/005.mp3",
+          "read_text": "跟，跟随的跟，跟着的跟"
+        },
+        {
+          "char": "渔",
+          "pinyin": "yú",
+          "shengmu": "",
+          "yunmu": "yú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/006.mp3",
+          "read_text": "渔，渔民的渔，渔船的渔"
+        },
+        {
+          "char": "壳",
+          "pinyin": "ké",
+          "shengmu": "k",
+          "yunmu": "é",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/007.mp3",
+          "read_text": "壳，贝壳的壳，外壳的壳"
+        },
+        {
+          "char": "院",
+          "pinyin": "yuàn",
+          "shengmu": "",
+          "yunmu": "yuàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/008.mp3",
+          "read_text": "院，庭院的院，院子的院"
+        },
+        {
+          "char": "亚",
+          "pinyin": "yà",
+          "shengmu": "y",
+          "yunmu": "à",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/009.mp3",
+          "read_text": "亚，亚热带的亚，亚洲的亚"
+        },
+        {
+          "char": "透",
+          "pinyin": "tòu",
+          "shengmu": "t",
+          "yunmu": "òu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/010.mp3",
+          "read_text": "透，透明的透，透过的透"
+        },
+        {
+          "char": "除",
+          "pinyin": "chú",
+          "shengmu": "ch",
+          "yunmu": "ú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/011.mp3",
+          "read_text": "除，除了的除，清除的除"
+        },
+        {
+          "char": "踩",
+          "pinyin": "cǎi",
+          "shengmu": "c",
+          "yunmu": "ǎi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/sz/012.mp3",
+          "read_text": "踩，踩到的踩，踩踏的踩"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "海滨",
+          "pinyin": "hǎibīn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/001.mp3",
+          "read_text": "海滨"
+        },
+        {
+          "word": "街道",
+          "pinyin": "jiēdào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/002.mp3",
+          "read_text": "街道"
+        },
+        {
+          "word": "交界",
+          "pinyin": "jiāojiè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/003.mp3",
+          "read_text": "交界"
+        },
+        {
+          "word": "水平线",
+          "pinyin": "shuǐpíngxiàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/004.mp3",
+          "read_text": "水平线"
+        },
+        {
+          "word": "机帆船",
+          "pinyin": "jīfānchuán",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/005.mp3",
+          "read_text": "机帆船"
+        },
+        {
+          "word": "来来往往",
+          "pinyin": "láiláiwǎngwǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/006.mp3",
+          "read_text": "来来往往"
+        },
+        {
+          "word": "朝阳",
+          "pinyin": "zhāoyáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/007.mp3",
+          "read_text": "朝阳"
+        },
+        {
+          "word": "渔民",
+          "pinyin": "yúmín",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/008.mp3",
+          "read_text": "渔民"
+        },
+        {
+          "word": "贝壳",
+          "pinyin": "bèiké",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/009.mp3",
+          "read_text": "贝壳"
+        },
+        {
+          "word": "汽笛",
+          "pinyin": "qìdí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/010.mp3",
+          "read_text": "汽笛"
+        },
+        {
+          "word": "出海",
+          "pinyin": "chūhǎi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/011.mp3",
+          "read_text": "出海"
+        },
+        {
+          "word": "银光闪闪",
+          "pinyin": "yínguāngshǎnshǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/012.mp3",
+          "read_text": "银光闪闪"
+        },
+        {
+          "word": "庭院",
+          "pinyin": "tíngyuàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/013.mp3",
+          "read_text": "庭院"
+        },
+        {
+          "word": "亚热带",
+          "pinyin": "yàrèdài",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/014.mp3",
+          "read_text": "亚热带"
+        },
+        {
+          "word": "散发",
+          "pinyin": "sànfà",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/015.mp3",
+          "read_text": "散发"
+        },
+        {
+          "word": "打扫",
+          "pinyin": "dǎsǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/016.mp3",
+          "read_text": "打扫"
+        },
+        {
+          "word": "干净",
+          "pinyin": "gānjìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l17/cy/017.mp3",
+          "read_text": "干净"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 6,
+      "no": 18,
+      "title": "美丽的小兴安岭",
+      "key": "l18",
+      "shengzi": [
+        {
+          "char": "抽",
+          "pinyin": "chōu",
+          "shengmu": "ch",
+          "yunmu": "ōu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/001.mp3",
+          "read_text": "抽，抽出的抽，抽水的抽"
+        },
+        {
+          "char": "封",
+          "pinyin": "fēng",
+          "shengmu": "f",
+          "yunmu": "ēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/002.mp3",
+          "read_text": "封，封住的封，信封的封"
+        },
+        {
+          "char": "严",
+          "pinyin": "yán",
+          "shengmu": "y",
+          "yunmu": "án",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/003.mp3",
+          "read_text": "严，严严实实的严，严格的严"
+        },
+        {
+          "char": "挡",
+          "pinyin": "dǎng",
+          "shengmu": "d",
+          "yunmu": "ǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/004.mp3",
+          "read_text": "挡，挡住的挡，抵挡的挡"
+        },
+        {
+          "char": "坛",
+          "pinyin": "tán",
+          "shengmu": "t",
+          "yunmu": "án",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/005.mp3",
+          "read_text": "坛，花坛的坛，坛子的坛"
+        },
+        {
+          "char": "显",
+          "pinyin": "xiǎn",
+          "shengmu": "x",
+          "yunmu": "iǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/006.mp3",
+          "read_text": "显，显得的显，明显的显"
+        },
+        {
+          "char": "苍",
+          "pinyin": "cāng",
+          "shengmu": "c",
+          "yunmu": "āng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/007.mp3",
+          "read_text": "苍，苍翠的苍，苍老的苍"
+        },
+        {
+          "char": "药",
+          "pinyin": "yào",
+          "shengmu": "y",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/008.mp3",
+          "read_text": "药，药材的药，药水的药"
+        },
+        {
+          "char": "材",
+          "pinyin": "cái",
+          "shengmu": "c",
+          "yunmu": "ái",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/009.mp3",
+          "read_text": "材，药材的材，材料的材"
+        },
+        {
+          "char": "软",
+          "pinyin": "ruǎn",
+          "shengmu": "r",
+          "yunmu": "uǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/010.mp3",
+          "read_text": "软，松软的软，柔软的软"
+        },
+        {
+          "char": "刮",
+          "pinyin": "guā",
+          "shengmu": "g",
+          "yunmu": "uā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/011.mp3",
+          "read_text": "刮，刮过的刮，刮风的刮"
+        },
+        {
+          "char": "捉",
+          "pinyin": "zhuō",
+          "shengmu": "zh",
+          "yunmu": "uō",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/sz/012.mp3",
+          "read_text": "捉，捉住的捉，捉虫的捉"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "东北",
+          "pinyin": "dōngběi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/001.mp3",
+          "read_text": "东北"
+        },
+        {
+          "word": "密密层层",
+          "pinyin": "mìmìcéngcéng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/002.mp3",
+          "read_text": "密密层层"
+        },
+        {
+          "word": "严严实实",
+          "pinyin": "yányánshíshí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/003.mp3",
+          "read_text": "严严实实"
+        },
+        {
+          "word": "视线",
+          "pinyin": "shìxiàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/004.mp3",
+          "read_text": "视线"
+        },
+        {
+          "word": "山谷",
+          "pinyin": "shāngǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/005.mp3",
+          "read_text": "山谷"
+        },
+        {
+          "word": "起来",
+          "pinyin": "qǐlái",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/006.mp3",
+          "read_text": "起来"
+        },
+        {
+          "word": "照射",
+          "pinyin": "zhàoshè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/007.mp3",
+          "read_text": "照射"
+        },
+        {
+          "word": "各种各样",
+          "pinyin": "gèzhǒnggèyàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/008.mp3",
+          "read_text": "各种各样"
+        },
+        {
+          "word": "花坛",
+          "pinyin": "huātán",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/009.mp3",
+          "read_text": "花坛"
+        },
+        {
+          "word": "显得",
+          "pinyin": "xiǎnde",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/010.mp3",
+          "read_text": "显得"
+        },
+        {
+          "word": "苍翠",
+          "pinyin": "cāngcuì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/011.mp3",
+          "read_text": "苍翠"
+        },
+        {
+          "word": "药材",
+          "pinyin": "yàocái",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/012.mp3",
+          "read_text": "药材"
+        },
+        {
+          "word": "捕捉",
+          "pinyin": "bǔzhuō",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/013.mp3",
+          "read_text": "捕捉"
+        },
+        {
+          "word": "野兔",
+          "pinyin": "yětù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/014.mp3",
+          "read_text": "野兔"
+        },
+        {
+          "word": "景色",
+          "pinyin": "jǐngsè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/015.mp3",
+          "read_text": "景色"
+        },
+        {
+          "word": "宝库",
+          "pinyin": "bǎokù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l18/cy/016.mp3",
+          "read_text": "宝库"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 7,
+      "no": 20,
+      "title": "古诗三首",
+      "key": "l20",
+      "shengzi": [
+        {
+          "char": "返",
+          "pinyin": "fǎn",
+          "shengmu": "f",
+          "yunmu": "ǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/001.mp3",
+          "read_text": "返，返回的返，往返的返"
+        },
+        {
+          "char": "望",
+          "pinyin": "wàng",
+          "shengmu": "w",
+          "yunmu": "àng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/002.mp3",
+          "read_text": "望，望天门山的望，看望的望"
+        },
+        {
+          "char": "断",
+          "pinyin": "duàn",
+          "shengmu": "d",
+          "yunmu": "uàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/003.mp3",
+          "read_text": "断，断开的断，打断的断"
+        },
+        {
+          "char": "楚",
+          "pinyin": "chǔ",
+          "shengmu": "ch",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/004.mp3",
+          "read_text": "楚，清楚的楚，楚国的楚"
+        },
+        {
+          "char": "至",
+          "pinyin": "zhì",
+          "shengmu": "",
+          "yunmu": "zhì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/005.mp3",
+          "read_text": "至，至于的至，至今的至"
+        },
+        {
+          "char": "岸",
+          "pinyin": "àn",
+          "shengmu": "",
+          "yunmu": "àn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/006.mp3",
+          "read_text": "岸，岸边的岸，河岸的岸"
+        },
+        {
+          "char": "孤",
+          "pinyin": "gū",
+          "shengmu": "g",
+          "yunmu": "ū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/007.mp3",
+          "read_text": "孤，孤独的孤，孤单的孤"
+        },
+        {
+          "char": "饮",
+          "pinyin": "yǐn",
+          "shengmu": "",
+          "yunmu": "yǐn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/008.mp3",
+          "read_text": "饮，饮酒的饮，饮料的饮"
+        },
+        {
+          "char": "亦",
+          "pinyin": "yì",
+          "shengmu": "",
+          "yunmu": "yì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/009.mp3",
+          "read_text": "亦，亦然的亦，亦步亦趋的亦"
+        },
+        {
+          "char": "欲",
+          "pinyin": "yù",
+          "shengmu": "",
+          "yunmu": "yù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/010.mp3",
+          "read_text": "欲，欲望的欲，欲穷千里目的欲"
+        },
+        {
+          "char": "抹",
+          "pinyin": "mǒ",
+          "shengmu": "m",
+          "yunmu": "ǒ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/011.mp3",
+          "read_text": "抹，涂抹的抹，抹上的抹"
+        },
+        {
+          "char": "宜",
+          "pinyin": "yí",
+          "shengmu": "",
+          "yunmu": "yí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l20/sz/012.mp3",
+          "read_text": "宜，适宜的宜，便宜的宜"
+        }
+      ],
+      "ciyu": []
+    },
+    {
+      "type": "lesson",
+      "unit": 7,
+      "no": 21,
+      "title": "大自然的声音",
+      "key": "l21",
+      "shengzi": [
+        {
+          "char": "妙",
+          "pinyin": "miào",
+          "shengmu": "m",
+          "yunmu": "iào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/001.mp3",
+          "read_text": "妙，美妙的妙，奇妙的妙"
+        },
+        {
+          "char": "奏",
+          "pinyin": "zòu",
+          "shengmu": "z",
+          "yunmu": "òu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/002.mp3",
+          "read_text": "奏，演奏的奏，合奏的奏"
+        },
+        {
+          "char": "琴",
+          "pinyin": "qín",
+          "shengmu": "q",
+          "yunmu": "ín",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/003.mp3",
+          "read_text": "琴，手风琴的琴，钢琴的琴"
+        },
+        {
+          "char": "柔",
+          "pinyin": "róu",
+          "shengmu": "r",
+          "yunmu": "óu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/004.mp3",
+          "read_text": "柔，温柔的柔，柔软的柔"
+        },
+        {
+          "char": "感",
+          "pinyin": "gǎn",
+          "shengmu": "g",
+          "yunmu": "ǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/005.mp3",
+          "read_text": "感，感受的感，感觉的感"
+        },
+        {
+          "char": "充",
+          "pinyin": "chōng",
+          "shengmu": "ch",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/006.mp3",
+          "read_text": "充，充满的充，充足的充"
+        },
+        {
+          "char": "威",
+          "pinyin": "wēi",
+          "shengmu": "w",
+          "yunmu": "ēi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/007.mp3",
+          "read_text": "威，威力的威，威风的威"
+        },
+        {
+          "char": "器",
+          "pinyin": "qì",
+          "shengmu": "q",
+          "yunmu": "ì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/008.mp3",
+          "read_text": "器，乐器的器，机器的器"
+        },
+        {
+          "char": "汇",
+          "pinyin": "huì",
+          "shengmu": "h",
+          "yunmu": "uì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/009.mp3",
+          "read_text": "汇，汇合的汇，汇总的汇"
+        },
+        {
+          "char": "鸣",
+          "pinyin": "míng",
+          "shengmu": "m",
+          "yunmu": "íng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/010.mp3",
+          "read_text": "鸣，鸣叫的鸣，鸟鸣的鸣"
+        },
+        {
+          "char": "塘",
+          "pinyin": "táng",
+          "shengmu": "t",
+          "yunmu": "áng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/sz/011.mp3",
+          "read_text": "塘，水塘的塘，池塘的塘"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "大自然",
+          "pinyin": "dàzìrán",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/001.mp3",
+          "read_text": "大自然"
+        },
+        {
+          "word": "美妙",
+          "pinyin": "měimiào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/002.mp3",
+          "read_text": "美妙"
+        },
+        {
+          "word": "音乐家",
+          "pinyin": "yīnyuèjiā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/003.mp3",
+          "read_text": "音乐家"
+        },
+        {
+          "word": "手风琴",
+          "pinyin": "shǒufēngqín",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/004.mp3",
+          "read_text": "手风琴"
+        },
+        {
+          "word": "歌手",
+          "pinyin": "gēshǒu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/005.mp3",
+          "read_text": "歌手"
+        },
+        {
+          "word": "感受",
+          "pinyin": "gǎnshòu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/006.mp3",
+          "read_text": "感受"
+        },
+        {
+          "word": "温柔",
+          "pinyin": "wēnróu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/007.mp3",
+          "read_text": "温柔"
+        },
+        {
+          "word": "合奏",
+          "pinyin": "hézòu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/008.mp3",
+          "read_text": "合奏"
+        },
+        {
+          "word": "充满",
+          "pinyin": "chōngmǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/009.mp3",
+          "read_text": "充满"
+        },
+        {
+          "word": "威力",
+          "pinyin": "wēilì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/010.mp3",
+          "read_text": "威力"
+        },
+        {
+          "word": "乐器",
+          "pinyin": "yuèqì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/011.mp3",
+          "read_text": "乐器"
+        },
+        {
+          "word": "屋顶",
+          "pinyin": "wūdǐng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/012.mp3",
+          "read_text": "屋顶"
+        },
+        {
+          "word": "河流",
+          "pinyin": "héliú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/013.mp3",
+          "read_text": "河流"
+        },
+        {
+          "word": "轻快",
+          "pinyin": "qīngkuài",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/014.mp3",
+          "read_text": "轻快"
+        },
+        {
+          "word": "合唱",
+          "pinyin": "héchàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/015.mp3",
+          "read_text": "合唱"
+        },
+        {
+          "word": "水塘",
+          "pinyin": "shuǐtáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l21/cy/016.mp3",
+          "read_text": "水塘"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 7,
+      "no": 22,
+      "title": "读不完的大书",
+      "key": "l22",
+      "shengzi": [
+        {
+          "char": "虾",
+          "pinyin": "xiā",
+          "shengmu": "x",
+          "yunmu": "iā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/001.mp3",
+          "read_text": "虾，小虾的虾，虾米的虾"
+        },
+        {
+          "char": "昆",
+          "pinyin": "kūn",
+          "shengmu": "k",
+          "yunmu": "ūn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/002.mp3",
+          "read_text": "昆，昆虫的昆，昆仑的昆"
+        },
+        {
+          "char": "仅",
+          "pinyin": "jǐn",
+          "shengmu": "j",
+          "yunmu": "ǐn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/003.mp3",
+          "read_text": "仅，不仅的仅，仅仅的仅"
+        },
+        {
+          "char": "序",
+          "pinyin": "xù",
+          "shengmu": "x",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/004.mp3",
+          "read_text": "序，井然有序的序，顺序的序"
+        },
+        {
+          "char": "荣",
+          "pinyin": "róng",
+          "shengmu": "r",
+          "yunmu": "óng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/005.mp3",
+          "read_text": "荣，光荣的荣，繁荣的荣"
+        },
+        {
+          "char": "枯",
+          "pinyin": "kū",
+          "shengmu": "k",
+          "yunmu": "ū",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/006.mp3",
+          "read_text": "枯，枯黄的枯，干枯的枯"
+        },
+        {
+          "char": "姿",
+          "pinyin": "zī",
+          "shengmu": "",
+          "yunmu": "zī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/007.mp3",
+          "read_text": "姿，姿态的姿，姿势的姿"
+        },
+        {
+          "char": "态",
+          "pinyin": "tài",
+          "shengmu": "t",
+          "yunmu": "ài",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/008.mp3",
+          "read_text": "态，姿态的态，态度的态"
+        },
+        {
+          "char": "刺",
+          "pinyin": "cì",
+          "shengmu": "",
+          "yunmu": "cì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/009.mp3",
+          "read_text": "刺，刺猬的刺，鱼刺的刺"
+        },
+        {
+          "char": "梨",
+          "pinyin": "lí",
+          "shengmu": "l",
+          "yunmu": "í",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/010.mp3",
+          "read_text": "梨，梨子的梨，梨树的梨"
+        },
+        {
+          "char": "部",
+          "pinyin": "bù",
+          "shengmu": "b",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/011.mp3",
+          "read_text": "部，全部的部，部门的部"
+        },
+        {
+          "char": "奥",
+          "pinyin": "ào",
+          "shengmu": "",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/012.mp3",
+          "read_text": "奥，奥秘的奥，深奥的奥"
+        },
+        {
+          "char": "秘",
+          "pinyin": "mì",
+          "shengmu": "m",
+          "yunmu": "ì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/sz/013.mp3",
+          "read_text": "秘，奥秘的秘，秘密的秘"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "昆虫",
+          "pinyin": "kūnchóng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/001.mp3",
+          "read_text": "昆虫"
+        },
+        {
+          "word": "万物",
+          "pinyin": "wànwù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/002.mp3",
+          "read_text": "万物"
+        },
+        {
+          "word": "沉思",
+          "pinyin": "chénsī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/003.mp3",
+          "read_text": "沉思"
+        },
+        {
+          "word": "搬家",
+          "pinyin": "bānjiā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/004.mp3",
+          "read_text": "搬家"
+        },
+        {
+          "word": "井然有序",
+          "pinyin": "jǐngrányǒuxù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/005.mp3",
+          "read_text": "井然有序"
+        },
+        {
+          "word": "精神",
+          "pinyin": "jīngshén",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/006.mp3",
+          "read_text": "精神"
+        },
+        {
+          "word": "植物",
+          "pinyin": "zhíwù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/007.mp3",
+          "read_text": "植物"
+        },
+        {
+          "word": "千姿百态",
+          "pinyin": "qiānzībǎitài",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/008.mp3",
+          "read_text": "千姿百态"
+        },
+        {
+          "word": "鲜美",
+          "pinyin": "xiānměi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/009.mp3",
+          "read_text": "鲜美"
+        },
+        {
+          "word": "池塘",
+          "pinyin": "chítáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/010.mp3",
+          "read_text": "池塘"
+        },
+        {
+          "word": "秋高气爽",
+          "pinyin": "qiūgāoqìshuǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/011.mp3",
+          "read_text": "秋高气爽"
+        },
+        {
+          "word": "倒映",
+          "pinyin": "dàoyìng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/012.mp3",
+          "read_text": "倒映"
+        },
+        {
+          "word": "游玩",
+          "pinyin": "yóuwán",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/013.mp3",
+          "read_text": "游玩"
+        },
+        {
+          "word": "画册",
+          "pinyin": "huàcè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/014.mp3",
+          "read_text": "画册"
+        },
+        {
+          "word": "无穷",
+          "pinyin": "wúqióng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/015.mp3",
+          "read_text": "无穷"
+        },
+        {
+          "word": "奥秘",
+          "pinyin": "àomì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/016.mp3",
+          "read_text": "奥秘"
+        },
+        {
+          "word": "无尽",
+          "pinyin": "wújìn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l22/cy/017.mp3",
+          "read_text": "无尽"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 8,
+      "no": 23,
+      "title": "司马光",
+      "key": "l23",
+      "shengzi": [
+        {
+          "char": "司",
+          "pinyin": "sī",
+          "shengmu": "",
+          "yunmu": "sī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/001.mp3",
+          "read_text": "司，司马光的司，司机的司"
+        },
+        {
+          "char": "登",
+          "pinyin": "dēng",
+          "shengmu": "d",
+          "yunmu": "ēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/002.mp3",
+          "read_text": "登，登上的登，登山的登"
+        },
+        {
+          "char": "跌",
+          "pinyin": "diē",
+          "shengmu": "d",
+          "yunmu": "iē",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/003.mp3",
+          "read_text": "跌，跌入的跌，跌倒的跌"
+        },
+        {
+          "char": "皆",
+          "pinyin": "jiē",
+          "shengmu": "j",
+          "yunmu": "iē",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/004.mp3",
+          "read_text": "皆，皆大欢喜的皆，尽人皆知的皆"
+        },
+        {
+          "char": "弃",
+          "pinyin": "qì",
+          "shengmu": "q",
+          "yunmu": "ì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/005.mp3",
+          "read_text": "弃，放弃的弃，丢弃的弃"
+        },
+        {
+          "char": "持",
+          "pinyin": "chí",
+          "shengmu": "",
+          "yunmu": "chí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/006.mp3",
+          "read_text": "持，拿着的持，坚持的持"
+        },
+        {
+          "char": "击",
+          "pinyin": "jī",
+          "shengmu": "j",
+          "yunmu": "ī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l23/sz/007.mp3",
+          "read_text": "击，击中的击，打击的击"
+        }
+      ],
+      "ciyu": []
+    },
+    {
+      "type": "lesson",
+      "unit": 8,
+      "no": 24,
+      "title": "一定要争气",
+      "key": "l24",
+      "shengzi": [
+        {
+          "char": "念",
+          "pinyin": "niàn",
+          "shengmu": "n",
+          "yunmu": "iàn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/001.mp3",
+          "read_text": "念，想念的念，念书的念"
+        },
+        {
+          "char": "差",
+          "pinyin": "chā",
+          "shengmu": "ch",
+          "yunmu": "ā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/002.mp3",
+          "read_text": "差，差别的差，差不多的差"
+        },
+        {
+          "char": "考",
+          "pinyin": "kǎo",
+          "shengmu": "k",
+          "yunmu": "ǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/003.mp3",
+          "read_text": "考，考试的考，思考的考"
+        },
+        {
+          "char": "试",
+          "pinyin": "shì",
+          "shengmu": "",
+          "yunmu": "shì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/004.mp3",
+          "read_text": "试，考试的试，试卷的试"
+        },
+        {
+          "char": "均",
+          "pinyin": "jūn",
+          "shengmu": "j",
+          "yunmu": "ūn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/005.mp3",
+          "read_text": "均，平均的均，均匀的均"
+        },
+        {
+          "char": "退",
+          "pinyin": "tuì",
+          "shengmu": "t",
+          "yunmu": "uì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/006.mp3",
+          "read_text": "退，后退的退，退出的退"
+        },
+        {
+          "char": "努",
+          "pinyin": "nǔ",
+          "shengmu": "n",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/007.mp3",
+          "read_text": "努，努力的努，努嘴的努"
+        },
+        {
+          "char": "单",
+          "pinyin": "dān",
+          "shengmu": "d",
+          "yunmu": "ān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/008.mp3",
+          "read_text": "单，单独的单，单一的单"
+        },
+        {
+          "char": "留",
+          "pinyin": "liú",
+          "shengmu": "l",
+          "yunmu": "iú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/009.mp3",
+          "read_text": "留，留学的留，留下的留"
+        },
+        {
+          "char": "度",
+          "pinyin": "dù",
+          "shengmu": "d",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/010.mp3",
+          "read_text": "度，态度的度，度过的度"
+        },
+        {
+          "char": "奋",
+          "pinyin": "fèn",
+          "shengmu": "f",
+          "yunmu": "èn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/sz/011.mp3",
+          "read_text": "奋，兴奋的奋，奋斗的奋"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "生物",
+          "pinyin": "shēngwù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/001.mp3",
+          "read_text": "生物"
+        },
+        {
+          "word": "从事",
+          "pinyin": "cóngshì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/002.mp3",
+          "read_text": "从事"
+        },
+        {
+          "word": "成就",
+          "pinyin": "chéngjiù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/003.mp3",
+          "read_text": "成就"
+        },
+        {
+          "word": "学期",
+          "pinyin": "xuéqī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/004.mp3",
+          "read_text": "学期"
+        },
+        {
+          "word": "考试",
+          "pinyin": "kǎoshì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/005.mp3",
+          "read_text": "考试"
+        },
+        {
+          "word": "再三",
+          "pinyin": "zàisān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/006.mp3",
+          "read_text": "再三"
+        },
+        {
+          "word": "同意",
+          "pinyin": "tóngyì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/007.mp3",
+          "read_text": "同意"
+        },
+        {
+          "word": "难得",
+          "pinyin": "nándé",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/008.mp3",
+          "read_text": "难得"
+        },
+        {
+          "word": "值班",
+          "pinyin": "zhíbān",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/009.mp3",
+          "read_text": "值班"
+        },
+        {
+          "word": "努力",
+          "pinyin": "nǔlì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/010.mp3",
+          "read_text": "努力"
+        },
+        {
+          "word": "留学",
+          "pinyin": "liúxué",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/011.mp3",
+          "read_text": "留学"
+        },
+        {
+          "word": "国家",
+          "pinyin": "guójiā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/012.mp3",
+          "read_text": "国家"
+        },
+        {
+          "word": "落后",
+          "pinyin": "luòhòu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/013.mp3",
+          "read_text": "落后"
+        },
+        {
+          "word": "地位",
+          "pinyin": "dìwèi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/014.mp3",
+          "read_text": "地位"
+        },
+        {
+          "word": "环节",
+          "pinyin": "huánjié",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/015.mp3",
+          "read_text": "环节"
+        },
+        {
+          "word": "难度",
+          "pinyin": "nándù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/016.mp3",
+          "read_text": "难度"
+        },
+        {
+          "word": "刻苦",
+          "pinyin": "kèkǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/017.mp3",
+          "read_text": "刻苦"
+        },
+        {
+          "word": "兴奋",
+          "pinyin": "xīngfèn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l24/cy/018.mp3",
+          "read_text": "兴奋"
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "unit": 8,
+      "no": 25,
+      "title": "手术台就是阵地",
+      "key": "l25",
+      "shengzi": [
+        {
+          "char": "棒",
+          "pinyin": "bàng",
+          "shengmu": "b",
+          "yunmu": "àng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/001.mp3",
+          "read_text": "棒，棒棒的棒，木棒的棒"
+        },
+        {
+          "char": "伤",
+          "pinyin": "shāng",
+          "shengmu": "sh",
+          "yunmu": "āng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/002.mp3",
+          "read_text": "伤，伤员的伤，受伤的伤"
+        },
+        {
+          "char": "陆",
+          "pinyin": "lù",
+          "shengmu": "l",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/003.mp3",
+          "read_text": "陆，陆续的陆，陆地的陆"
+        },
+        {
+          "char": "血",
+          "pinyin": "xuè",
+          "shengmu": "x",
+          "yunmu": "uè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/004.mp3",
+          "read_text": "血，血丝的血，鲜血的血"
+        },
+        {
+          "char": "取",
+          "pinyin": "qǔ",
+          "shengmu": "q",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/005.mp3",
+          "read_text": "取，取出的取，取得的取"
+        },
+        {
+          "char": "盘",
+          "pinyin": "pán",
+          "shengmu": "p",
+          "yunmu": "án",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/006.mp3",
+          "read_text": "盘，盘子的盘，棋盘的盘"
+        },
+        {
+          "char": "匆",
+          "pinyin": "cōng",
+          "shengmu": "c",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/007.mp3",
+          "read_text": "匆，匆匆的匆，匆忙的匆"
+        },
+        {
+          "char": "医",
+          "pinyin": "yī",
+          "shengmu": "",
+          "yunmu": "yī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/008.mp3",
+          "read_text": "医，医生的医，医院的医"
+        },
+        {
+          "char": "迅",
+          "pinyin": "xùn",
+          "shengmu": "x",
+          "yunmu": "ùn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/009.mp3",
+          "read_text": "迅，迅速的迅，迅猛的迅"
+        },
+        {
+          "char": "速",
+          "pinyin": "sù",
+          "shengmu": "s",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/010.mp3",
+          "read_text": "速，迅速的速，速度的速"
+        },
+        {
+          "char": "夺",
+          "pinyin": "duó",
+          "shengmu": "d",
+          "yunmu": "uó",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/011.mp3",
+          "read_text": "夺，夺取的夺，争夺的夺"
+        },
+        {
+          "char": "秒",
+          "pinyin": "miǎo",
+          "shengmu": "m",
+          "yunmu": "iǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/sz/012.mp3",
+          "read_text": "秒，分秒的秒，秒针的秒"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "手术台",
+          "pinyin": "shǒushùtái",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/001.mp3",
+          "read_text": "手术台"
+        },
+        {
+          "word": "阵地",
+          "pinyin": "zhèndì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/002.mp3",
+          "read_text": "阵地"
+        },
+        {
+          "word": "战斗",
+          "pinyin": "zhàndòu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/003.mp3",
+          "read_text": "战斗"
+        },
+        {
+          "word": "打响",
+          "pinyin": "dǎxiǎng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/004.mp3",
+          "read_text": "打响"
+        },
+        {
+          "word": "消灭",
+          "pinyin": "xiāomiè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/005.mp3",
+          "read_text": "消灭"
+        },
+        {
+          "word": "伤员",
+          "pinyin": "shāngyuán",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/006.mp3",
+          "read_text": "伤员"
+        },
+        {
+          "word": "陆续",
+          "pinyin": "lùxù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/007.mp3",
+          "read_text": "陆续"
+        },
+        {
+          "word": "血丝",
+          "pinyin": "xuèsī",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/008.mp3",
+          "read_text": "血丝"
+        },
+        {
+          "word": "匆匆",
+          "pinyin": "cōngcōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/009.mp3",
+          "read_text": "匆匆"
+        },
+        {
+          "word": "医生",
+          "pinyin": "yīshēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/010.mp3",
+          "read_text": "医生"
+        },
+        {
+          "word": "转告",
+          "pinyin": "zhuǎngào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/011.mp3",
+          "read_text": "转告"
+        },
+        {
+          "word": "赶忙",
+          "pinyin": "gǎnmáng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/012.mp3",
+          "read_text": "赶忙"
+        },
+        {
+          "word": "迅速",
+          "pinyin": "xùnsù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/013.mp3",
+          "read_text": "迅速"
+        },
+        {
+          "word": "争分夺秒",
+          "pinyin": "zhēngfēnduómiǎo",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/014.mp3",
+          "read_text": "争分夺秒"
+        },
+        {
+          "word": "连续",
+          "pinyin": "liánxù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/l25/cy/015.mp3",
+          "read_text": "连续"
+        }
+      ]
+    },
+    {
+      "type": "yuandi",
+      "unit": 3,
+      "no": 0,
+      "title": "语文园地3",
+      "key": "yd03",
+      "shengzi": [
+        {
+          "char": "恒",
+          "pinyin": "héng",
+          "shengmu": "h",
+          "yunmu": "éng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/001.mp3",
+          "read_text": "恒，恒心的恒，永恒的恒"
+        },
+        {
+          "char": "圣",
+          "pinyin": "shèng",
+          "shengmu": "sh",
+          "yunmu": "èng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/002.mp3",
+          "read_text": "圣，神圣的圣，圣洁的圣"
+        },
+        {
+          "char": "萌",
+          "pinyin": "méng",
+          "shengmu": "m",
+          "yunmu": "éng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/003.mp3",
+          "read_text": "萌，萌发的萌，萌芽的萌"
+        },
+        {
+          "char": "妥",
+          "pinyin": "tuǒ",
+          "shengmu": "t",
+          "yunmu": "uǒ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/004.mp3",
+          "read_text": "妥，妥当的妥，妥帖的妥"
+        },
+        {
+          "char": "轴",
+          "pinyin": "zhóu",
+          "shengmu": "zh",
+          "yunmu": "óu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/005.mp3",
+          "read_text": "轴，车轴的轴，轴心的轴"
+        },
+        {
+          "char": "阁",
+          "pinyin": "gé",
+          "shengmu": "g",
+          "yunmu": "é",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/006.mp3",
+          "read_text": "阁，阁楼的阁，亭台楼阁的阁"
+        },
+        {
+          "char": "培",
+          "pinyin": "péi",
+          "shengmu": "p",
+          "yunmu": "éi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/007.mp3",
+          "read_text": "培，培植的培，培养的培"
+        },
+        {
+          "char": "厘",
+          "pinyin": "lí",
+          "shengmu": "l",
+          "yunmu": "í",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/sz/008.mp3",
+          "read_text": "厘，厘米的厘，毫厘的厘"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "恒心",
+          "pinyin": "héngxīn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/001.mp3",
+          "read_text": "恒心"
+        },
+        {
+          "word": "神圣",
+          "pinyin": "shénshèng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/002.mp3",
+          "read_text": "神圣"
+        },
+        {
+          "word": "萌发",
+          "pinyin": "méngfā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/003.mp3",
+          "read_text": "萌发"
+        },
+        {
+          "word": "妥当",
+          "pinyin": "tuǒdàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/004.mp3",
+          "read_text": "妥当"
+        },
+        {
+          "word": "车轴",
+          "pinyin": "chēzhóu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/005.mp3",
+          "read_text": "车轴"
+        },
+        {
+          "word": "阁楼",
+          "pinyin": "gélóu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/006.mp3",
+          "read_text": "阁楼"
+        },
+        {
+          "word": "培植",
+          "pinyin": "péizhí",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/007.mp3",
+          "read_text": "培植"
+        },
+        {
+          "word": "厘米",
+          "pinyin": "límǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd03/cy/008.mp3",
+          "read_text": "厘米"
+        }
+      ]
+    },
+    {
+      "type": "yuandi",
+      "unit": 4,
+      "no": 0,
+      "title": "语文园地4",
+      "key": "yd04",
+      "shengzi": [
+        {
+          "char": "申",
+          "pinyin": "shēn",
+          "shengmu": "sh",
+          "yunmu": "ēn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/001.mp3",
+          "read_text": "申，申请的申，申明的申"
+        },
+        {
+          "char": "介",
+          "pinyin": "jiè",
+          "shengmu": "j",
+          "yunmu": "iè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/002.mp3",
+          "read_text": "介，介绍的介，中介的介"
+        },
+        {
+          "char": "绍",
+          "pinyin": "shào",
+          "shengmu": "sh",
+          "yunmu": "ào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/003.mp3",
+          "read_text": "绍，介绍的绍，绍兴的绍"
+        },
+        {
+          "char": "宗",
+          "pinyin": "zōng",
+          "shengmu": "z",
+          "yunmu": "ōng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/004.mp3",
+          "read_text": "宗，宗旨的宗，祖宗的宗"
+        },
+        {
+          "char": "旨",
+          "pinyin": "zhǐ",
+          "shengmu": "",
+          "yunmu": "zhǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/005.mp3",
+          "read_text": "旨，宗旨的旨，圣旨的旨"
+        },
+        {
+          "char": "占",
+          "pinyin": "zhàn",
+          "shengmu": "zh",
+          "yunmu": "àn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/006.mp3",
+          "read_text": "占，占领的占，占有的占"
+        },
+        {
+          "char": "乏",
+          "pinyin": "fá",
+          "shengmu": "f",
+          "yunmu": "á",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/sz/007.mp3",
+          "read_text": "乏，乏力的乏，缺乏的乏"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "申请",
+          "pinyin": "shēnqǐng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/cy/001.mp3",
+          "read_text": "申请"
+        },
+        {
+          "word": "介绍",
+          "pinyin": "jièshào",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/cy/002.mp3",
+          "read_text": "介绍"
+        },
+        {
+          "word": "主旨",
+          "pinyin": "zhǔzhǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/cy/003.mp3",
+          "read_text": "主旨"
+        },
+        {
+          "word": "占领",
+          "pinyin": "zhànlǐng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/cy/004.mp3",
+          "read_text": "占领"
+        },
+        {
+          "word": "乏力",
+          "pinyin": "fálì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd04/cy/005.mp3",
+          "read_text": "乏力"
+        }
+      ]
+    },
+    {
+      "type": "yuandi",
+      "unit": 7,
+      "no": 0,
+      "title": "语文园地7",
+      "key": "yd07",
+      "shengzi": [
+        {
+          "char": "螺",
+          "pinyin": "luó",
+          "shengmu": "l",
+          "yunmu": "uó",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/sz/001.mp3",
+          "read_text": "螺，田螺的螺，海螺的螺"
+        },
+        {
+          "char": "螃",
+          "pinyin": "páng",
+          "shengmu": "p",
+          "yunmu": "áng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/sz/002.mp3",
+          "read_text": "螃，螃蟹的螃，蟹黄的螃"
+        },
+        {
+          "char": "蟹",
+          "pinyin": "xiè",
+          "shengmu": "x",
+          "yunmu": "iè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/sz/003.mp3",
+          "read_text": "蟹，螃蟹的蟹，蟹壳的蟹"
+        },
+        {
+          "char": "鲤",
+          "pinyin": "lǐ",
+          "shengmu": "l",
+          "yunmu": "ǐ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/sz/004.mp3",
+          "read_text": "鲤，鲤鱼的鲤，鲤跃龙门的鲤"
+        },
+        {
+          "char": "鲫",
+          "pinyin": "jì",
+          "shengmu": "j",
+          "yunmu": "ì",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/sz/005.mp3",
+          "read_text": "鲫，鲫鱼的鲫，鲫鱼汤的鲫"
+        },
+        {
+          "char": "鲨",
+          "pinyin": "shā",
+          "shengmu": "sh",
+          "yunmu": "ā",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/sz/006.mp3",
+          "read_text": "鲨，鲨鱼的鲨，大白鲨的鲨"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "田螺",
+          "pinyin": "tiánluó",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/cy/001.mp3",
+          "read_text": "田螺"
+        },
+        {
+          "word": "螃蟹",
+          "pinyin": "pángxiè",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/cy/002.mp3",
+          "read_text": "螃蟹"
+        },
+        {
+          "word": "鲤鱼",
+          "pinyin": "lǐyú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/cy/003.mp3",
+          "read_text": "鲤鱼"
+        },
+        {
+          "word": "鲫鱼",
+          "pinyin": "jìyú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/cy/004.mp3",
+          "read_text": "鲫鱼"
+        },
+        {
+          "word": "鲨鱼",
+          "pinyin": "shāyú",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd07/cy/005.mp3",
+          "read_text": "鲨鱼"
+        }
+      ]
+    },
+    {
+      "type": "yuandi",
+      "unit": 8,
+      "no": 0,
+      "title": "语文园地8",
+      "key": "yd08",
+      "shengzi": [
+        {
+          "char": "睁",
+          "pinyin": "zhēng",
+          "shengmu": "zh",
+          "yunmu": "ēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/001.mp3",
+          "read_text": "睁，睁开眼睛的睁，睁大的睁"
+        },
+        {
+          "char": "眨",
+          "pinyin": "zhǎ",
+          "shengmu": "zh",
+          "yunmu": "ǎ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/002.mp3",
+          "read_text": "眨，眨眼的眨，眨巴的眨"
+        },
+        {
+          "char": "瞪",
+          "pinyin": "dèng",
+          "shengmu": "d",
+          "yunmu": "èng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/003.mp3",
+          "read_text": "瞪，瞪眼的瞪，瞪大的瞪"
+        },
+        {
+          "char": "瞅",
+          "pinyin": "chǒu",
+          "shengmu": "ch",
+          "yunmu": "ǒu",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/004.mp3",
+          "read_text": "瞅，瞅见的瞅，瞅一眼的瞅"
+        },
+        {
+          "char": "怒",
+          "pinyin": "nù",
+          "shengmu": "n",
+          "yunmu": "ù",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/005.mp3",
+          "read_text": "怒，怒目圆睁的怒，发怒的怒"
+        },
+        {
+          "char": "眶",
+          "pinyin": "kuàng",
+          "shengmu": "k",
+          "yunmu": "uàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/006.mp3",
+          "read_text": "眶，眼眶的眶，泪眶的眶"
+        },
+        {
+          "char": "呆",
+          "pinyin": "dāi",
+          "shengmu": "d",
+          "yunmu": "āi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/007.mp3",
+          "read_text": "呆，发呆的呆，呆住的呆"
+        },
+        {
+          "char": "睹",
+          "pinyin": "dǔ",
+          "shengmu": "d",
+          "yunmu": "ǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/sz/008.mp3",
+          "read_text": "睹，耳闻目睹的睹，目睹的睹"
+        }
+      ],
+      "ciyu": [
+        {
+          "word": "怒目圆睁",
+          "pinyin": "nùmùyuánzhēng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/cy/001.mp3",
+          "read_text": "怒目圆睁"
+        },
+        {
+          "word": "眨眼",
+          "pinyin": "zhǎyǎn",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/cy/002.mp3",
+          "read_text": "眨眼"
+        },
+        {
+          "word": "眼眶",
+          "pinyin": "yǎnkuàng",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/cy/003.mp3",
+          "read_text": "眼眶"
+        },
+        {
+          "word": "目瞪口呆",
+          "pinyin": "mùdèngkǒudāi",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/cy/004.mp3",
+          "read_text": "目瞪口呆"
+        },
+        {
+          "word": "耳闻目睹",
+          "pinyin": "ěrwénmùdǔ",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/yd08/cy/005.mp3",
+          "read_text": "耳闻目睹"
+        }
+      ]
+    }
+  ]
+}
