@@ -1,12 +1,9 @@
 /* 生字词语听写 · Service Worker
- * 提供 PWA 安装能力 + 页面/索引离线缓存
- * 说明：COS 音频为跨域资源，不做离线缓存（在线播放），只缓存本站静态资源。 */
-const CACHE_NAME = 'tingxie-v1';
+ * 提供 PWA 安装能力 + 静态资源离线缓存
+ * 说明：index.html 与 data/*.json 采用 network-first（页面/索引始终取最新，不受缓存卡住）；
+ *       icons 等静态资源 cache-first。COS 音频为跨域资源，不缓存（在线播放）。 */
+const CACHE_NAME = 'tingxie-v2';
 const CORE_ASSETS = [
-  './',
-  './index.html',
-  './manifest.json',
-  './data/%E4%B8%89%E5%B9%B4%E7%BA%A7%E4%B8%8A%E5%86%8C_index.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-180.png',
@@ -38,6 +35,28 @@ self.addEventListener('fetch', (e) => {
   // 仅 GET
   if (e.request.method !== 'GET') return;
 
+  const isPage = e.request.mode === 'navigate'
+    || url.pathname.endsWith('/index.html')
+    || url.pathname === '/'
+    || url.pathname.endsWith('.json');
+
+  if (isPage) {
+    // 页面/JSON：network-first，保证总是拿到最新版本
+    e.respondWith(
+      fetch(e.request)
+        .then((res) => {
+          if (res && res.ok) {
+            const clone = res.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(e.request, clone));
+          }
+          return res;
+        })
+        .catch(() => caches.match(e.request))
+    );
+    return;
+  }
+
+  // 静态资源：cache-first
   e.respondWith(
     caches.match(e.request).then((cached) => {
       if (cached) return cached;
