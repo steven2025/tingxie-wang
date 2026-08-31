@@ -14,22 +14,22 @@
 <meta name="apple-mobile-web-app-title" content="听写台">
 <title>生字词语听写</title>
 <style>
-  /* ============ 全局：清爽简洁 + 移动端友好 ============ */
+  /* ============ 全局：清爽简洁 + 移动端/平板友好 ============ */
   * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
   :root {
     --bg:#f5f7fb; --card:#ffffff;
     --txt:#2b3554; --sub:#8a94b0;
     --blue:#3b82f6; --green:#22c55e; --amber:#f59e0b; --violet:#8b5cf6;
     --line:#e3e8f2;
-    /* 响应式尺寸（手机→平板自动缩放） */
-    --btn-side: clamp(104px, 27vw, 136px);     /* 上一个/下一个 */
-    --btn-replay: clamp(128px, 33vw, 168px);   /* 重听 */
-    --btn-fs-icon: clamp(26px, 7vw, 34px);
-    --btn-fs-label: clamp(14px, 3.8vw, 17px);
-    --progress-fs: clamp(56px, 16vw, 88px);    /* 中央进度数字 */
-    --progress-sub-fs: clamp(34px, 9vw, 56px);
-    --title-fs: clamp(15px, 4.2vw, 19px);
-    --mode-fs: clamp(16px, 4.5vw, 19px);
+    /* 响应式尺寸：手机→平板自动缩放；vw 保证任何宽度不溢出 */
+    --btn-side: clamp(84px, 23vw, 132px);       /* 上一个/下一个（方形） */
+    --btn-replay: clamp(102px, 28vw, 160px);    /* 重听（圆形，最大） */
+    --btn-fs-icon: clamp(24px, 6.5vw, 32px);
+    --btn-fs-label: clamp(13px, 3.6vw, 16px);
+    --progress-fs: clamp(54px, 16vw, 88px);     /* 中央进度数字 */
+    --progress-sub-fs: clamp(32px, 9vw, 56px);
+    --title-fs: clamp(14px, 4vw, 18px);
+    --mode-fs: clamp(15px, 4.2vw, 18px);
   }
   html,body { height:100%; }
   html { overscroll-behavior:none; }
@@ -41,80 +41,87 @@
     overflow:hidden; touch-action:manipulation; -webkit-font-smoothing:antialiased;
   }
   .app {
-    position:relative; height:100%; width:100%; max-width:min(720px, 100%);
-    margin:0 auto; display:flex; flex-direction:column;
+    position:relative; width:100%; max-width:min(720px,100%); margin:0 auto;
+    height:100vh; height:100dvh; display:flex; flex-direction:column;
   }
 
   /* ============ 顶部：教材 / 课次 隐藏式下拉 ============ */
   header {
-    display:flex; gap:10px; align-items:center;
-    padding:calc(10px + env(safe-area-inset-top)) 18px 4px; z-index:20;
+    display:flex; gap:8px; align-items:center;
+    padding:calc(8px + env(safe-area-inset-top)) 14px 4px; z-index:20;
   }
   .picker {
     position:relative; display:flex; align-items:center; gap:6px;
-    padding:12px 16px; border-radius:14px; background:var(--card);
+    padding:11px 14px; border-radius:14px; background:var(--card);
     border:1px solid var(--line); box-shadow:0 2px 8px rgba(43,53,84,.06);
     font-size:var(--title-fs); font-weight:600; color:var(--txt); cursor:pointer;
-    min-height:46px; transition:transform .08s;
+    min-height:44px; transition:transform .08s;
   }
   .picker:active { transform:scale(.97); }
-  .picker .arrow { font-size:11px; color:var(--sub); transition:transform .2s; }
+  .picker .arrow { font-size:11px; color:var(--sub); flex:0 0 auto; transition:transform .2s; }
   .picker.open .arrow { transform:rotate(180deg); }
-  .picker#bookPicker { color:var(--violet); }
+  .picker#bookPicker { color:var(--violet); flex:0 0 auto; }
+  /* 课次选择器：弹性收缩，长课名省略号 */
+  .picker#lessonPicker { flex:1; min-width:0; }
+  #lessonName { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
   .dropdown {
-    position:absolute; top:calc(100% + 8px); left:0; width:max-content; min-width:170px; max-width:min(80vw,300px);
-    background:var(--card); border:1px solid var(--line); border-radius:16px;
-    box-shadow:0 16px 40px rgba(43,53,84,.18); padding:6px; display:none;
-    max-height:min(52vh,420px); overflow-y:auto; -webkit-overflow-scrolling:touch; z-index:30;
+    position:absolute; top:calc(100% + 8px); width:max-content; min-width:170px;
+    max-width:min(84vw,300px); background:var(--card); border:1px solid var(--line);
+    border-radius:16px; box-shadow:0 16px 40px rgba(43,53,84,.18); padding:6px; display:none;
+    max-height:min(50vh,400px); overflow-y:auto; -webkit-overflow-scrolling:touch; z-index:30;
   }
   .dropdown.open { display:block; }
+  #lessonDropdown { left:auto; right:0; }
   .dropdown button {
-    display:block; width:100%; text-align:left; padding:13px 16px;
+    display:block; width:100%; text-align:left; padding:12px 16px;
     border:none; background:none; border-radius:11px; font-size:15px;
-    color:var(--txt); cursor:pointer; font-family:inherit; min-height:46px;
+    color:var(--txt); cursor:pointer; font-family:inherit; min-height:44px;
   }
   .dropdown button:active { background:#eef2ff; }
   .dropdown button.active { background:var(--blue); color:#fff; font-weight:600; }
 
   /* ============ 中央进度 ============ */
-  .stage { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:clamp(14px,3.5vw,22px); min-height:0; padding:8px 16px; }
-  .mode-tag { font-size:clamp(13px,3.5vw,15px); padding:7px 22px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--sub); letter-spacing:3px; }
+  .stage { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:clamp(12px,3vw,20px); min-height:0; padding:6px 14px; }
+  .mode-tag { font-size:clamp(12px,3.2vw,14px); padding:6px 20px; border-radius:999px; background:var(--card); border:1px solid var(--line); color:var(--sub); letter-spacing:3px; }
   .progress { font-size:var(--progress-fs); font-weight:700; letter-spacing:2px; color:var(--txt); line-height:1; display:flex; align-items:baseline; gap:4px; }
   .progress b { color:var(--blue); }
   .progress-total { font-size:var(--progress-sub-fs); color:var(--sub); font-weight:600; }
-  .lesson-name { font-size:var(--title-fs); color:var(--sub); letter-spacing:2px; text-align:center; }
+  .lesson-name { font-size:var(--title-fs); color:var(--sub); letter-spacing:2px; text-align:center; max-width:90%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
   /* ============ 模式切换（生字/词语） ============ */
-  .mode-switch { display:flex; gap:12px; padding:0 clamp(20px,6vw,36px); z-index:5; }
+  .mode-switch { display:flex; gap:10px; padding:0 clamp(14px,4.5vw,36px); z-index:5; }
   .mode-chip {
-    flex:1; padding:14px 0; border-radius:18px; border:1.5px solid var(--line);
+    flex:1; padding:12px 0; border-radius:18px; border:1.5px solid var(--line);
     background:var(--card); color:var(--sub); font-size:var(--mode-fs); font-weight:600;
-    letter-spacing:5px; cursor:pointer; font-family:inherit; min-height:54px;
+    letter-spacing:4px; cursor:pointer; font-family:inherit; min-height:50px;
     transition:transform .08s, box-shadow .2s;
   }
   .mode-chip:active { transform:scale(.97); }
   .mode-chip.active { background:var(--blue); color:#fff; border-color:var(--blue); box-shadow:0 6px 18px rgba(59,130,246,.30); }
 
-  /* ============ 三个巨大按键（触控友好） ============ */
-  footer { padding:clamp(16px,4vw,24px) clamp(18px,5vw,30px) calc(clamp(22px,6vw,30px) + env(safe-area-inset-bottom)); z-index:5; }
-  .ctrl { display:flex; align-items:center; justify-content:space-between; gap:clamp(8px,2.5vw,16px); }
+  /* ============ 三个巨大按键（触控友好，不溢出） ============ */
+  footer { padding:clamp(10px,2.5vw,20px) clamp(12px,4vw,28px) calc(clamp(14px,4vw,24px) + env(safe-area-inset-bottom)); z-index:5; }
+  .ctrl { display:flex; align-items:center; justify-content:center; gap:clamp(7px,2vw,16px); }
   .big-btn {
-    border:none; cursor:pointer; font-family:inherit; font-weight:700; color:#fff;
+    flex:0 0 auto; border:none; cursor:pointer; font-family:inherit; font-weight:700; color:#fff;
     display:flex; flex-direction:column; align-items:center; justify-content:center;
     border-radius:32px; transition:transform .08s, box-shadow .2s, filter .2s;
     -webkit-user-select:none; user-select:none;
   }
   .big-btn:active { transform:scale(.94); filter:brightness(.96); }
   .big-btn .icon { line-height:1; }
-  .big-btn .label { font-size:var(--btn-fs-label); letter-spacing:2px; opacity:.95; font-weight:600; }
-  .big-btn.side { width:var(--btn-side); height:var(--btn-side); border-radius:36px; gap:6px; }
+  .big-btn .label { font-size:var(--btn-fs-label); letter-spacing:2px; font-weight:700; }
+  .big-btn.side { width:var(--btn-side); height:var(--btn-side); border-radius:34px; gap:5px; }
   .big-btn.side .icon { font-size:var(--btn-fs-icon); }
   .big-btn.prev { background:linear-gradient(145deg,#60a5fa,#2563eb); box-shadow:0 8px 0 #1d4ed8, 0 14px 26px rgba(59,130,246,.32); }
   .big-btn.next { background:linear-gradient(145deg,#fb923c,#ea580c); box-shadow:0 8px 0 #c2410c, 0 14px 26px rgba(234,88,12,.30); }
-  .big-btn.replay { width:var(--btn-replay); height:var(--btn-replay); border-radius:50%; gap:8px; }
-  .big-btn.replay .icon { font-size:clamp(40px,11vw,54px); }
-  .big-btn.replay .label { font-size:calc(var(--btn-fs-label) + 2px); }
+  /* 重听：中央最大圆形；深色字保证对比度 */
+  .big-btn.replay { width:var(--btn-replay); height:var(--btn-replay); border-radius:50%; gap:7px;
+    background:linear-gradient(145deg,#86efac,#4ade80); box-shadow:0 8px 0 #22c55e, 0 14px 26px rgba(34,197,94,.30);
+    color:#14532d; }
+  .big-btn.replay .icon { font-size:clamp(30px,8vw,44px); color:#14532d; }
+  .big-btn.replay .label { font-size:calc(var(--btn-fs-label) + 2px); color:#14532d; }
   .big-btn.playing .icon { animation:pulse 1s infinite; }
   @keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.14)} }
 
@@ -122,21 +129,28 @@
   .mask { position:absolute; inset:0; background:rgba(43,53,84,.18); z-index:15; display:none; }
   .mask.open { display:block; }
   .toast {
-    position:absolute; left:50%; bottom:16%; transform:translateX(-50%); z-index:40;
-    background:rgba(43,53,84,.92); color:#fff; padding:12px 20px; border-radius:14px;
+    position:absolute; left:50%; bottom:14%; transform:translateX(-50%); z-index:40;
+    background:rgba(43,53,84,.92); color:#fff; padding:11px 18px; border-radius:14px;
     font-size:14px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .3s;
   }
   .toast.show { opacity:1; }
 
-  /* ============ 平板横屏优化：整体略放大 ============ */
-  @media (min-width:700px) and (orientation:landscape) {
-    .app { max-width:min(860px, 100%); }
-    .big-btn.side { border-radius:28px; }
+  /* ============ 手机横屏（高度受限时压缩布局） ============ */
+  @media (orientation:landscape) and (max-height:520px) {
+    .stage { flex-direction:row; flex-wrap:wrap; gap:8px 18px; }
+    .mode-tag { display:none; }
+    .big-btn.side { width:clamp(62px,15vw,96px); height:clamp(62px,15vw,96px); border-radius:24px; }
+    .big-btn.replay { width:clamp(74px,18vw,116px); height:clamp(74px,18vw,116px); }
+    .big-btn.replay .icon { font-size:clamp(26px,6.5vw,38px); }
+    footer { padding:8px 14px calc(10px + env(safe-area-inset-bottom)); }
   }
-  /* 非常窄的小屏（iPhone SE / 小屏安卓）防溢出 */
-  @media (max-width:360px) {
-    .ctrl { gap:6px; }
-    .big-btn.side { border-radius:28px; }
+  /* ============ 平板竖屏：内容适当加宽居中 ============ */
+  @media (min-width:700px) and (orientation:portrait) {
+    .app { max-width:min(640px,100%); }
+  }
+  /* ============ 平板/大屏横屏（高度充足）：整体加宽 ============ */
+  @media (min-width:700px) and (orientation:landscape) and (min-height:521px) {
+    .app { max-width:min(840px,100%); }
   }
 </style>
 </head>
@@ -172,7 +186,10 @@
   <footer>
     <div class="ctrl">
       <button class="big-btn prev side" id="btnPrev"><span class="icon">◀</span><span class="label">上一个</span></button>
-      <button class="big-btn replay" id="btnPlay"><span class="icon">🔊</span><span class="label">重听</span></button>
+      <button class="big-btn replay" id="btnPlay">
+        <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.06A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg></span>
+        <span class="label">重听</span>
+      </button>
       <button class="big-btn next side" id="btnNext"><span class="icon">▶</span><span class="label">下一个</span></button>
     </div>
   </footer>
