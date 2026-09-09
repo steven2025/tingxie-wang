@@ -12,7 +12,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="听写台">
-<title>生字词语听写</title>
+<title>语文英语听写</title>
 <style>
   /* ============ 全局：清爽简洁 + 移动端/平板友好 ============ */
   * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -26,8 +26,6 @@
     --btn-replay: clamp(102px, 28vw, 160px);    /* 重听（圆形，最大） */
     --btn-fs-icon: clamp(24px, 6.5vw, 32px);
     --btn-fs-label: clamp(13px, 3.6vw, 16px);
-    --progress-fs: clamp(54px, 16vw, 88px);     /* 中央进度数字 */
-    --progress-sub-fs: clamp(32px, 9vw, 56px);
     --title-fs: clamp(14px, 4vw, 18px);
     --mode-fs: clamp(15px, 4.2vw, 18px);
   }
@@ -45,11 +43,20 @@
     height:100vh; height:100dvh; display:flex; flex-direction:column;
   }
 
-  /* ============ 顶部：教材 / 课次 隐藏式下拉 ============ */
-  header {
-    display:flex; gap:8px; align-items:center;
-    padding:calc(8px + env(safe-area-inset-top)) 14px 4px; z-index:20;
+  /* ============ 顶部：主菜单 + 教材/课次下拉 ============ */
+  header { padding:calc(6px + env(safe-area-inset-top)) 0 2px; z-index:20; }
+  .main-menu { display:flex; gap:10px; padding:6px 14px 8px; }
+  .menu-btn {
+    flex:1; padding:12px 0; border-radius:14px; border:2px solid var(--line);
+    background:var(--card); font-size:var(--mode-fs); font-weight:700; letter-spacing:3px;
+    color:var(--sub); cursor:pointer; font-family:inherit;
+    transition:transform .08s, box-shadow .2s;
   }
+  .menu-btn:active { transform:scale(.97); }
+  #menuZh.active { background:linear-gradient(145deg,#60a5fa,#2563eb); color:#fff; border-color:#2563eb; box-shadow:0 4px 14px rgba(59,130,246,.35); }
+  #menuEn.active { background:linear-gradient(145deg,#34d399,#059669); color:#fff; border-color:#059669; box-shadow:0 4px 14px rgba(16,185,129,.35); }
+
+  .header-row { display:flex; gap:8px; align-items:center; padding:0 14px 2px; }
   .picker {
     position:relative; display:flex; align-items:center; gap:6px;
     padding:11px 14px; border-radius:14px; background:var(--card);
@@ -61,7 +68,6 @@
   .picker .arrow { font-size:11px; color:var(--sub); flex:0 0 auto; transition:transform .2s; }
   .picker.open .arrow { transform:rotate(180deg); }
   .picker#bookPicker { color:var(--violet); flex:0 0 auto; }
-  /* 课次选择器：弹性收缩，长课名省略号 */
   .picker#lessonPicker { flex:1; min-width:0; }
   #lessonName { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
@@ -137,6 +143,8 @@
 
   /* ============ 手机横屏（高度受限时压缩布局） ============ */
   @media (orientation:landscape) and (max-height:520px) {
+    .main-menu { padding:4px 10px 6px; gap:8px; }
+    .menu-btn { padding:8px 0; }
     .info-bar { gap:4px 10px; padding:4px 10px 2px; }
     .mode-chip { padding:6px 16px; min-height:32px; }
     .big-btn .label { font-size:12px; letter-spacing:1px; }
@@ -157,21 +165,27 @@
 <body>
 <div class="app" id="app">
 
-  <!-- 顶部：教材 + 课次 隐藏式下拉 -->
+  <!-- 顶部：主菜单（语文/英语） + 教材/课次 隐藏式下拉 -->
   <header>
-    <div class="picker" id="bookPicker">
-      <span id="bookName">三年级上册</span><span class="arrow">▼</span>
-      <div class="dropdown" id="bookDropdown"></div>
+    <div class="main-menu">
+      <button class="menu-btn active" id="menuZh">语文听写</button>
+      <button class="menu-btn" id="menuEn">英语听写</button>
     </div>
-    <div class="picker" id="lessonPicker">
-      <span id="lessonName">第1课</span><span class="arrow">▼</span>
-      <div class="dropdown" id="lessonDropdown"></div>
+    <div class="header-row">
+      <div class="picker" id="bookPicker">
+        <span id="bookName">三年级上册</span><span class="arrow">▼</span>
+        <div class="dropdown" id="bookDropdown"></div>
+      </div>
+      <div class="picker" id="lessonPicker">
+        <span id="lessonName">第1课</span><span class="arrow">▼</span>
+        <div class="dropdown" id="lessonDropdown"></div>
+      </div>
     </div>
   </header>
 
   <!-- 顶部信息条：模式切换 + 进度 + 课名 -->
   <div class="info-bar">
-    <div class="mode-switch">
+    <div class="mode-switch" id="modeSwitch">
       <button class="mode-chip active" id="modeZh">生字</button>
       <button class="mode-chip" id="modeCy">词语</button>
     </div>
@@ -197,24 +211,39 @@
 
 <script>
 /* ================================================================
- * 生字词语听写 · 极简播放器（移动端/平板友好）
- * - 前端绝不显示听写字词内容，只显示 教材/课次/进度/模式。
- * - 每个生字/词组只播一遍；上一个 / 重听 / 下一个 手动控制。
+ * 语文 / 英语 听写台 · 极简播放器（移动端/平板友好）
+ * - 主菜单两个入口：语文听写 / 英语听写
+ * - 前端绝不显示听写内容，只显示 教材/课次(单元)/进度/模式。
+ * - 每个条目只播一遍；上一个 / 重听 / 下一个 手动控制。
  * - 教材、课次均为隐藏式下拉按钮。
  * ================================================================ */
 
 let INDEX = null;
-let curSection = null;   // 当前课次 section
-let curMode = 'shengzi'; // 'shengzi' | 'ciyu'
+let APP_MODE = 'chinese';    // 'chinese' | 'english'
+let curSection = null;       // 当前课次/单元 section
+let curMode = 'shengzi';     // 语文: 'shengzi' | 'ciyu'；英语忽略
 let curIndex = 0;
 let audioEl = null;
 let playing = false;
+
+const DATA_FILES = {
+  chinese: 'data/三年级上册_index.json',
+  english: 'data/英语三年级上册_index.json'
+};
 
 function $(id) { return document.getElementById(id); }
 
 function getList() {
   if (!curSection) return [];
-  return curMode === 'shengzi' ? curSection.shengzi : curSection.ciyu;
+  if (APP_MODE === 'english') return curSection.words || [];
+  return curMode === 'shengzi' ? (curSection.shengzi || []) : (curSection.ciyu || []);
+}
+
+function sectionLabel(sec) {
+  if (!sec) return '';
+  if (APP_MODE === 'english') return sec.title || ('Unit ' + sec.no);
+  return sec.type === 'yuandi' ? ('语文园地' + sec.unit)
+    : (sec.no + '.' + (sec.title || ('第' + sec.no + '课')));
 }
 
 /* ---------------- 下拉 ---------------- */
@@ -255,14 +284,11 @@ function renderLessonDropdown() {
   INDEX.sections.forEach((sec, i) => {
     const b = document.createElement('button');
     b.dataset.idx = i;
-    const label = sec.type === 'yuandi' ? ('语文园地' + sec.unit)
-                : (sec.no + '.' + (sec.title || ('第' + sec.no + '课')));
-    b.textContent = label;
+    b.textContent = sectionLabel(sec);
     if (sec === curSection) b.classList.add('active');
     dd.appendChild(b);
   });
-  $('lessonName').textContent = curSection.type === 'yuandi'
-    ? ('语文园地' + curSection.unit) : (curSection.no + '.' + (curSection.title || ('第' + curSection.no + '课')));
+  $('lessonName').textContent = sectionLabel(curSection);
 }
 
 /* ---------------- 界面渲染 ---------------- */
@@ -271,8 +297,9 @@ function updateStage() {
   const total = list.length;
   $('curNo').textContent = total ? (curIndex + 1) : 0;
   $('totalNo').textContent = total ? ('/ ' + total) : '';
-  $('lessonTitle').textContent = curSection.type === 'yuandi'
-    ? ('语文园地' + curSection.unit) : (curSection.no + '.' + (curSection.title || ''));
+  $('lessonTitle').textContent = sectionLabel(curSection);
+  // 英语模式隐藏 生字/词语 切换
+  $('modeSwitch').style.display = (APP_MODE === 'english') ? 'none' : '';
   $('modeZh').classList.toggle('active', curMode === 'shengzi');
   $('modeCy').classList.toggle('active', curMode === 'ciyu');
 }
@@ -285,7 +312,7 @@ function stopAudio() {
 }
 function playCurrent() {
   const list = getList();
-  if (!list.length) { toast('本课暂无内容'); return; }
+  if (!list.length) { toast(APP_MODE === 'english' ? '本单元暂无单词' : '本课暂无内容'); return; }
   const item = list[curIndex];
   if (!item || !item.audio) { toast('未找到音频'); return; }
   stopAudio();
@@ -310,10 +337,23 @@ function next() { stopAudio(); goto(curIndex + 1); playCurrent(); }
 function prev() { stopAudio(); goto(curIndex - 1); playCurrent(); }
 function replay() { playCurrent(); }
 
+/* ---------------- 主菜单切换（语文/英语） ---------------- */
+function setAppMode(mode) {
+  if (APP_MODE === mode) return;
+  APP_MODE = mode;
+  $('menuZh').classList.toggle('active', mode === 'chinese');
+  $('menuEn').classList.toggle('active', mode === 'english');
+  stopAudio();
+  curSection = null; curIndex = 0; curMode = 'shengzi';
+  loadIndex(DATA_FILES[mode]);
+}
+
 /* ---------------- 事件绑定 ---------------- */
 $('btnPlay').onclick = replay;
 $('btnNext').onclick = next;
 $('btnPrev').onclick = prev;
+$('menuZh').onclick = () => setAppMode('chinese');
+$('menuEn').onclick = () => setAppMode('english');
 $('modeZh').onclick = () => { if (curMode === 'shengzi') return; stopAudio(); curMode = 'shengzi'; curIndex = 0; updateStage(); };
 $('modeCy').onclick = () => { if (curMode === 'ciyu') return; stopAudio(); curMode = 'ciyu'; curIndex = 0; updateStage(); };
 setupPicker('lessonPicker', 'lessonDropdown', (idx) => {
@@ -360,7 +400,7 @@ function loadIndex(url) {
 }
 (function () {
   const m = location.search.match(/[?&]index=([^&]+)/);
-  const url = m ? decodeURIComponent(m[1]) : 'data/三年级上册_index.json';
+  const url = m ? decodeURIComponent(m[1]) : DATA_FILES[APP_MODE];
   loadIndex(url);
 })();
 
@@ -371,7 +411,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-console.log('极简听写台就绪');
+console.log('语文英语听写台就绪');
 </script>
 </body>
 </html>
