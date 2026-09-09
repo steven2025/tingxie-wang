@@ -1,0 +1,716 @@
+{
+  "type": "english",
+  "book": "英语三年级上册",
+  "version": "2026人教版PEP",
+  "audio_base": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en",
+  "sections": [
+    {
+      "type": "unit",
+      "no": 1,
+      "title": "Unit 1",
+      "words": [
+        {
+          "en": "name",
+          "zh": "名字",
+          "read_text": "<speak>name<break time=\"2000ms\"/>名字</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/001.wav"
+        },
+        {
+          "en": "nice",
+          "zh": "令人愉快的；友好的",
+          "read_text": "<speak>nice<break time=\"2000ms\"/>令人愉快的<break time=\"1500ms\"/>友好的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/002.wav"
+        },
+        {
+          "en": "ear",
+          "zh": "耳朵",
+          "read_text": "<speak>ear<break time=\"2000ms\"/>耳朵</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/003.wav"
+        },
+        {
+          "en": "hand",
+          "zh": "手",
+          "read_text": "<speak>hand<break time=\"2000ms\"/>手</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/004.wav"
+        },
+        {
+          "en": "eye",
+          "zh": "眼睛",
+          "read_text": "<speak>eye<break time=\"2000ms\"/>眼睛</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/005.wav"
+        },
+        {
+          "en": "mouth",
+          "zh": "嘴",
+          "read_text": "<speak>mouth<break time=\"2000ms\"/>嘴</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/006.wav"
+        },
+        {
+          "en": "arm",
+          "zh": "胳膊",
+          "read_text": "<speak>arm<break time=\"2000ms\"/>胳膊</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/007.wav"
+        },
+        {
+          "en": "can",
+          "zh": "可以",
+          "read_text": "<speak>can<break time=\"2000ms\"/>可以</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/008.wav"
+        },
+        {
+          "en": "share",
+          "zh": "分享",
+          "read_text": "<speak>share<break time=\"2000ms\"/>分享</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/009.wav"
+        },
+        {
+          "en": "smile",
+          "zh": "微笑；笑",
+          "read_text": "<speak>smile<break time=\"2000ms\"/>微笑<break time=\"1500ms\"/>笑</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/010.wav"
+        },
+        {
+          "en": "listen",
+          "zh": "听；倾听",
+          "read_text": "<speak>listen<break time=\"2000ms\"/>听<break time=\"1500ms\"/>倾听</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/011.wav"
+        },
+        {
+          "en": "help",
+          "zh": "帮助",
+          "read_text": "<speak>help<break time=\"2000ms\"/>帮助</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/012.wav"
+        },
+        {
+          "en": "say",
+          "zh": "说；讲",
+          "read_text": "<speak>say<break time=\"2000ms\"/>说<break time=\"1500ms\"/>讲</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/013.wav"
+        },
+        {
+          "en": "and",
+          "zh": "和；与",
+          "read_text": "<speak>and<break time=\"2000ms\"/>和<break time=\"1500ms\"/>与</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/014.wav"
+        },
+        {
+          "en": "goodbye",
+          "zh": "再见",
+          "read_text": "<speak>goodbye<break time=\"2000ms\"/>再见</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/015.wav"
+        },
+        {
+          "en": "toy",
+          "zh": "玩具",
+          "read_text": "<speak>toy<break time=\"2000ms\"/>玩具</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/016.wav"
+        },
+        {
+          "en": "friend",
+          "zh": "朋友",
+          "read_text": "<speak>friend<break time=\"2000ms\"/>朋友</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/017.wav"
+        },
+        {
+          "en": "good",
+          "zh": "好的",
+          "read_text": "<speak>good<break time=\"2000ms\"/>好的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/018.wav"
+        }
+      ]
+    },
+    {
+      "type": "unit",
+      "no": 2,
+      "title": "Unit 2",
+      "words": [
+        {
+          "en": "mum",
+          "zh": "妈妈",
+          "read_text": "<speak>mum<break time=\"2000ms\"/>妈妈</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/001.wav"
+        },
+        {
+          "en": "dad",
+          "zh": "爸爸；爹爹",
+          "read_text": "<speak>dad<break time=\"2000ms\"/>爸爸<break time=\"1500ms\"/>爹爹</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/002.wav"
+        },
+        {
+          "en": "grandma",
+          "zh": "奶奶；姥姥",
+          "read_text": "<speak>grandma<break time=\"2000ms\"/>奶奶<break time=\"1500ms\"/>姥姥</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/003.wav"
+        },
+        {
+          "en": "grandpa",
+          "zh": "爷爷；姥爷",
+          "read_text": "<speak>grandpa<break time=\"2000ms\"/>爷爷<break time=\"1500ms\"/>姥爷</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/004.wav"
+        },
+        {
+          "en": "grandfather",
+          "zh": "外祖父；爷爷；姥爷；外公",
+          "read_text": "<speak>grandfather<break time=\"2000ms\"/>外祖父<break time=\"1500ms\"/>爷爷<break time=\"1500ms\"/>姥爷<break time=\"1500ms\"/>外公</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/005.wav"
+        },
+        {
+          "en": "grandmother",
+          "zh": "外祖母；奶奶；姥姥；外婆",
+          "read_text": "<speak>grandmother<break time=\"2000ms\"/>外祖母<break time=\"1500ms\"/>奶奶<break time=\"1500ms\"/>姥姥<break time=\"1500ms\"/>外婆</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/006.wav"
+        },
+        {
+          "en": "mother",
+          "zh": "母亲；妈妈",
+          "read_text": "<speak>mother<break time=\"2000ms\"/>母亲<break time=\"1500ms\"/>妈妈</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/007.wav"
+        },
+        {
+          "en": "father",
+          "zh": "父亲；爸爸",
+          "read_text": "<speak>father<break time=\"2000ms\"/>父亲<break time=\"1500ms\"/>爸爸</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/008.wav"
+        },
+        {
+          "en": "me",
+          "zh": "我",
+          "read_text": "<speak>me<break time=\"2000ms\"/>我</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/009.wav"
+        },
+        {
+          "en": "sister",
+          "zh": "姐；妹",
+          "read_text": "<speak>sister<break time=\"2000ms\"/>姐<break time=\"1500ms\"/>妹</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/010.wav"
+        },
+        {
+          "en": "family",
+          "zh": "家；家庭",
+          "read_text": "<speak>family<break time=\"2000ms\"/>家<break time=\"1500ms\"/>家庭</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/011.wav"
+        },
+        {
+          "en": "have",
+          "zh": "有",
+          "read_text": "<speak>have<break time=\"2000ms\"/>有</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/012.wav"
+        },
+        {
+          "en": "big",
+          "zh": "大的",
+          "read_text": "<speak>big<break time=\"2000ms\"/>大的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/013.wav"
+        },
+        {
+          "en": "cousin",
+          "zh": "堂兄弟；表兄弟；堂姐妹；表姐妹",
+          "read_text": "<speak>cousin<break time=\"2000ms\"/>堂兄弟<break time=\"1500ms\"/>表兄弟<break time=\"1500ms\"/>堂姐妹<break time=\"1500ms\"/>表姐妹</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/014.wav"
+        },
+        {
+          "en": "brother",
+          "zh": "哥；弟",
+          "read_text": "<speak>brother<break time=\"2000ms\"/>哥<break time=\"1500ms\"/>弟</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/015.wav"
+        },
+        {
+          "en": "baby",
+          "zh": "婴儿",
+          "read_text": "<speak>baby<break time=\"2000ms\"/>婴儿</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/016.wav"
+        },
+        {
+          "en": "uncle",
+          "zh": "伯父；叔父；舅父；姑父；姨父",
+          "read_text": "<speak>uncle<break time=\"2000ms\"/>伯父<break time=\"1500ms\"/>叔父<break time=\"1500ms\"/>舅父<break time=\"1500ms\"/>姑父<break time=\"1500ms\"/>姨父</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/017.wav"
+        },
+        {
+          "en": "aunt",
+          "zh": "伯母；婶母；舅母；姑母；姨母",
+          "read_text": "<speak>aunt<break time=\"2000ms\"/>伯母<break time=\"1500ms\"/>婶母<break time=\"1500ms\"/>舅母<break time=\"1500ms\"/>姑母<break time=\"1500ms\"/>姨母</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/018.wav"
+        },
+        {
+          "en": "some",
+          "zh": "一些",
+          "read_text": "<speak>some<break time=\"2000ms\"/>一些</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/019.wav"
+        },
+        {
+          "en": "small",
+          "zh": "小的",
+          "read_text": "<speak>small<break time=\"2000ms\"/>小的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/020.wav"
+        }
+      ]
+    },
+    {
+      "type": "unit",
+      "no": 3,
+      "title": "Unit 3",
+      "words": [
+        {
+          "en": "like",
+          "zh": "喜欢",
+          "read_text": "<speak>like<break time=\"2000ms\"/>喜欢</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/001.wav"
+        },
+        {
+          "en": "dog",
+          "zh": "狗",
+          "read_text": "<speak>dog<break time=\"2000ms\"/>狗</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/002.wav"
+        },
+        {
+          "en": "pet",
+          "zh": "宠物",
+          "read_text": "<speak>pet<break time=\"2000ms\"/>宠物</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/003.wav"
+        },
+        {
+          "en": "cat",
+          "zh": "猫",
+          "read_text": "<speak>cat<break time=\"2000ms\"/>猫</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/004.wav"
+        },
+        {
+          "en": "fish",
+          "zh": "鱼；鱼肉",
+          "read_text": "<speak>fish<break time=\"2000ms\"/>鱼<break time=\"1500ms\"/>鱼肉</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/005.wav"
+        },
+        {
+          "en": "bird",
+          "zh": "鸟",
+          "read_text": "<speak>bird<break time=\"2000ms\"/>鸟</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/006.wav"
+        },
+        {
+          "en": "rabbit",
+          "zh": "兔",
+          "read_text": "<speak>rabbit<break time=\"2000ms\"/>兔</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/007.wav"
+        },
+        {
+          "en": "go",
+          "zh": "去；走",
+          "read_text": "<speak>go<break time=\"2000ms\"/>去<break time=\"1500ms\"/>走</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/008.wav"
+        },
+        {
+          "en": "zoo",
+          "zh": "动物园",
+          "read_text": "<speak>zoo<break time=\"2000ms\"/>动物园</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/009.wav"
+        },
+        {
+          "en": "fox",
+          "zh": "狐狸",
+          "read_text": "<speak>fox<break time=\"2000ms\"/>狐狸</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/010.wav"
+        },
+        {
+          "en": "Miss",
+          "zh": "老师；女士",
+          "read_text": "<speak>Miss<break time=\"2000ms\"/>老师<break time=\"1500ms\"/>女士</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/011.wav"
+        },
+        {
+          "en": "panda",
+          "zh": "大熊猫",
+          "read_text": "<speak>panda<break time=\"2000ms\"/>大熊猫</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/012.wav"
+        },
+        {
+          "en": "red panda",
+          "zh": "小熊猫",
+          "read_text": "<speak>red panda<break time=\"2000ms\"/>小熊猫</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/013.wav"
+        },
+        {
+          "en": "cute",
+          "zh": "可爱的",
+          "read_text": "<speak>cute<break time=\"2000ms\"/>可爱的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/014.wav"
+        },
+        {
+          "en": "monkey",
+          "zh": "猴子",
+          "read_text": "<speak>monkey<break time=\"2000ms\"/>猴子</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/015.wav"
+        },
+        {
+          "en": "tiger",
+          "zh": "老虎",
+          "read_text": "<speak>tiger<break time=\"2000ms\"/>老虎</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/016.wav"
+        },
+        {
+          "en": "elephant",
+          "zh": "大象",
+          "read_text": "<speak>elephant<break time=\"2000ms\"/>大象</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/017.wav"
+        },
+        {
+          "en": "lion",
+          "zh": "狮；狮子",
+          "read_text": "<speak>lion<break time=\"2000ms\"/>狮<break time=\"1500ms\"/>狮子</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/018.wav"
+        },
+        {
+          "en": "animal",
+          "zh": "动物",
+          "read_text": "<speak>animal<break time=\"2000ms\"/>动物</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/019.wav"
+        },
+        {
+          "en": "giraffe",
+          "zh": "长颈鹿",
+          "read_text": "<speak>giraffe<break time=\"2000ms\"/>长颈鹿</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/020.wav"
+        },
+        {
+          "en": "tall",
+          "zh": "高的",
+          "read_text": "<speak>tall<break time=\"2000ms\"/>高的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/021.wav"
+        },
+        {
+          "en": "fast",
+          "zh": "快的",
+          "read_text": "<speak>fast<break time=\"2000ms\"/>快的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit3/022.wav"
+        }
+      ]
+    },
+    {
+      "type": "unit",
+      "no": 4,
+      "title": "Unit 4",
+      "words": [
+        {
+          "en": "apple",
+          "zh": "苹果",
+          "read_text": "<speak>apple<break time=\"2000ms\"/>苹果</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/001.wav"
+        },
+        {
+          "en": "banana",
+          "zh": "香蕉",
+          "read_text": "<speak>banana<break time=\"2000ms\"/>香蕉</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/002.wav"
+        },
+        {
+          "en": "farm",
+          "zh": "农场",
+          "read_text": "<speak>farm<break time=\"2000ms\"/>农场</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/003.wav"
+        },
+        {
+          "en": "air",
+          "zh": "空气",
+          "read_text": "<speak>air<break time=\"2000ms\"/>空气</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/004.wav"
+        },
+        {
+          "en": "orange",
+          "zh": "橙子；柑橘",
+          "read_text": "<speak>orange<break time=\"2000ms\"/>橙子<break time=\"1500ms\"/>柑橘</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/005.wav"
+        },
+        {
+          "en": "grape",
+          "zh": "葡萄",
+          "read_text": "<speak>grape<break time=\"2000ms\"/>葡萄</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/006.wav"
+        },
+        {
+          "en": "school",
+          "zh": "学校",
+          "read_text": "<speak>school<break time=\"2000ms\"/>学校</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/007.wav"
+        },
+        {
+          "en": "garden",
+          "zh": "花园",
+          "read_text": "<speak>garden<break time=\"2000ms\"/>花园</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/008.wav"
+        },
+        {
+          "en": "need",
+          "zh": "需要",
+          "read_text": "<speak>need<break time=\"2000ms\"/>需要</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/009.wav"
+        },
+        {
+          "en": "water",
+          "zh": "浇水；水",
+          "read_text": "<speak>water<break time=\"2000ms\"/>浇水<break time=\"1500ms\"/>水</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/010.wav"
+        },
+        {
+          "en": "flower",
+          "zh": "花；花朵",
+          "read_text": "<speak>flower<break time=\"2000ms\"/>花<break time=\"1500ms\"/>花朵</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/011.wav"
+        },
+        {
+          "en": "grass",
+          "zh": "草；草地",
+          "read_text": "<speak>grass<break time=\"2000ms\"/>草<break time=\"1500ms\"/>草地</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/012.wav"
+        },
+        {
+          "en": "plant",
+          "zh": "种植；植物",
+          "read_text": "<speak>plant<break time=\"2000ms\"/>种植<break time=\"1500ms\"/>植物</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/013.wav"
+        },
+        {
+          "en": "new",
+          "zh": "新的",
+          "read_text": "<speak>new<break time=\"2000ms\"/>新的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/014.wav"
+        },
+        {
+          "en": "tree",
+          "zh": "树",
+          "read_text": "<speak>tree<break time=\"2000ms\"/>树</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/015.wav"
+        },
+        {
+          "en": "sun",
+          "zh": "阳光；太阳",
+          "read_text": "<speak>sun<break time=\"2000ms\"/>阳光<break time=\"1500ms\"/>太阳</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/016.wav"
+        },
+        {
+          "en": "give",
+          "zh": "给",
+          "read_text": "<speak>give<break time=\"2000ms\"/>给</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/017.wav"
+        },
+        {
+          "en": "us",
+          "zh": "我们",
+          "read_text": "<speak>us<break time=\"2000ms\"/>我们</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/018.wav"
+        },
+        {
+          "en": "them",
+          "zh": "它们；他们；她们",
+          "read_text": "<speak>them<break time=\"2000ms\"/>它们<break time=\"1500ms\"/>他们<break time=\"1500ms\"/>她们</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit4/019.wav"
+        }
+      ]
+    },
+    {
+      "type": "unit",
+      "no": 5,
+      "title": "Unit 5",
+      "words": [
+        {
+          "en": "colour",
+          "zh": "颜色",
+          "read_text": "<speak>colour<break time=\"2000ms\"/>颜色</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/001.wav"
+        },
+        {
+          "en": "orange",
+          "zh": "橙红色；橙红色的",
+          "read_text": "<speak>orange<break time=\"2000ms\"/>橙红色<break time=\"1500ms\"/>橙红色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/002.wav"
+        },
+        {
+          "en": "green",
+          "zh": "绿色；绿色的",
+          "read_text": "<speak>green<break time=\"2000ms\"/>绿色<break time=\"1500ms\"/>绿色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/003.wav"
+        },
+        {
+          "en": "red",
+          "zh": "红色；红色的",
+          "read_text": "<speak>red<break time=\"2000ms\"/>红色<break time=\"1500ms\"/>红色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/004.wav"
+        },
+        {
+          "en": "blue",
+          "zh": "蓝色；蓝色的",
+          "read_text": "<speak>blue<break time=\"2000ms\"/>蓝色<break time=\"1500ms\"/>蓝色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/005.wav"
+        },
+        {
+          "en": "make",
+          "zh": "使出现；做",
+          "read_text": "<speak>make<break time=\"2000ms\"/>使出现<break time=\"1500ms\"/>做</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/006.wav"
+        },
+        {
+          "en": "purple",
+          "zh": "紫色；紫色的",
+          "read_text": "<speak>purple<break time=\"2000ms\"/>紫色<break time=\"1500ms\"/>紫色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/007.wav"
+        },
+        {
+          "en": "brown",
+          "zh": "棕色；棕色的",
+          "read_text": "<speak>brown<break time=\"2000ms\"/>棕色<break time=\"1500ms\"/>棕色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/008.wav"
+        },
+        {
+          "en": "bear",
+          "zh": "熊",
+          "read_text": "<speak>bear<break time=\"2000ms\"/>熊</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/009.wav"
+        },
+        {
+          "en": "yellow",
+          "zh": "黄色；黄色的",
+          "read_text": "<speak>yellow<break time=\"2000ms\"/>黄色<break time=\"1500ms\"/>黄色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/010.wav"
+        },
+        {
+          "en": "duck",
+          "zh": "鸭",
+          "read_text": "<speak>duck<break time=\"2000ms\"/>鸭</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/011.wav"
+        },
+        {
+          "en": "sea",
+          "zh": "海；海洋",
+          "read_text": "<speak>sea<break time=\"2000ms\"/>海<break time=\"1500ms\"/>海洋</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/012.wav"
+        },
+        {
+          "en": "pink",
+          "zh": "粉色；粉色的",
+          "read_text": "<speak>pink<break time=\"2000ms\"/>粉色<break time=\"1500ms\"/>粉色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/013.wav"
+        },
+        {
+          "en": "draw",
+          "zh": "画",
+          "read_text": "<speak>draw<break time=\"2000ms\"/>画</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/014.wav"
+        },
+        {
+          "en": "white",
+          "zh": "白色；白色的",
+          "read_text": "<speak>white<break time=\"2000ms\"/>白色<break time=\"1500ms\"/>白色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/015.wav"
+        },
+        {
+          "en": "black",
+          "zh": "黑色；黑色的",
+          "read_text": "<speak>black<break time=\"2000ms\"/>黑色<break time=\"1500ms\"/>黑色的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/016.wav"
+        }
+      ]
+    },
+    {
+      "type": "unit",
+      "no": 6,
+      "title": "Unit 6",
+      "words": [
+        {
+          "en": "old",
+          "zh": "多少岁；年纪；旧的",
+          "read_text": "<speak>old<break time=\"2000ms\"/>多少岁<break time=\"1500ms\"/>年纪<break time=\"1500ms\"/>旧的</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/001.wav"
+        },
+        {
+          "en": "five",
+          "zh": "五",
+          "read_text": "<speak>five<break time=\"2000ms\"/>五</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/002.wav"
+        },
+        {
+          "en": "year",
+          "zh": "年纪；年",
+          "read_text": "<speak>year<break time=\"2000ms\"/>年纪<break time=\"1500ms\"/>年</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/003.wav"
+        },
+        {
+          "en": "one",
+          "zh": "一",
+          "read_text": "<speak>one<break time=\"2000ms\"/>一</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/004.wav"
+        },
+        {
+          "en": "two",
+          "zh": "二",
+          "read_text": "<speak>two<break time=\"2000ms\"/>二</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/005.wav"
+        },
+        {
+          "en": "three",
+          "zh": "三",
+          "read_text": "<speak>three<break time=\"2000ms\"/>三</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/006.wav"
+        },
+        {
+          "en": "four",
+          "zh": "四",
+          "read_text": "<speak>four<break time=\"2000ms\"/>四</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/007.wav"
+        },
+        {
+          "en": "ten",
+          "zh": "十",
+          "read_text": "<speak>ten<break time=\"2000ms\"/>十</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/008.wav"
+        },
+        {
+          "en": "six",
+          "zh": "六",
+          "read_text": "<speak>six<break time=\"2000ms\"/>六</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/009.wav"
+        },
+        {
+          "en": "seven",
+          "zh": "七",
+          "read_text": "<speak>seven<break time=\"2000ms\"/>七</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/010.wav"
+        },
+        {
+          "en": "eight",
+          "zh": "八",
+          "read_text": "<speak>eight<break time=\"2000ms\"/>八</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/011.wav"
+        },
+        {
+          "en": "nine",
+          "zh": "九",
+          "read_text": "<speak>nine<break time=\"2000ms\"/>九</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/012.wav"
+        },
+        {
+          "en": "o'clock",
+          "zh": "点钟",
+          "read_text": "<speak>o'clock<break time=\"2000ms\"/>点钟</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/013.wav"
+        },
+        {
+          "en": "cut",
+          "zh": "切块",
+          "read_text": "<speak>cut<break time=\"2000ms\"/>切块</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/014.wav"
+        },
+        {
+          "en": "eat",
+          "zh": "吃",
+          "read_text": "<speak>eat<break time=\"2000ms\"/>吃</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/015.wav"
+        },
+        {
+          "en": "cake",
+          "zh": "蛋糕",
+          "read_text": "<speak>cake<break time=\"2000ms\"/>蛋糕</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit6/016.wav"
+        }
+      ]
+    }
+  ]
+}
