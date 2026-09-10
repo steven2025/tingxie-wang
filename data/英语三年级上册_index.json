@@ -88,34 +88,16 @@
           "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/013.wav"
         },
         {
-          "en": "and",
-          "zh": "和；与",
-          "read_text": "<speak>and<break time=\"2000ms\"/>和<break time=\"1500ms\"/>与</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/014.wav"
-        },
-        {
-          "en": "goodbye",
-          "zh": "再见",
-          "read_text": "<speak>goodbye<break time=\"2000ms\"/>再见</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/015.wav"
-        },
-        {
-          "en": "toy",
-          "zh": "玩具",
-          "read_text": "<speak>toy<break time=\"2000ms\"/>玩具</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/016.wav"
-        },
-        {
           "en": "friend",
           "zh": "朋友",
           "read_text": "<speak>friend<break time=\"2000ms\"/>朋友</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/017.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/014.wav"
         },
         {
           "en": "good",
           "zh": "好的",
           "read_text": "<speak>good<break time=\"2000ms\"/>好的</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/018.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit1/015.wav"
         }
       ]
     },
@@ -233,16 +215,10 @@
           "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/018.wav"
         },
         {
-          "en": "some",
-          "zh": "一些",
-          "read_text": "<speak>some<break time=\"2000ms\"/>一些</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/019.wav"
-        },
-        {
           "en": "small",
           "zh": "小的",
           "read_text": "<speak>small<break time=\"2000ms\"/>小的</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/020.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit2/019.wav"
         }
       ]
     },
@@ -584,28 +560,34 @@
           "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/012.wav"
         },
         {
+          "en": "some",
+          "zh": "一些",
+          "read_text": "<speak>some<break time=\"2000ms\"/>一些</speak>",
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/013.wav"
+        },
+        {
           "en": "pink",
           "zh": "粉色；粉色的",
           "read_text": "<speak>pink<break time=\"2000ms\"/>粉色<break time=\"1500ms\"/>粉色的</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/013.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/014.wav"
         },
         {
           "en": "draw",
           "zh": "画",
           "read_text": "<speak>draw<break time=\"2000ms\"/>画</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/014.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/015.wav"
         },
         {
           "en": "white",
           "zh": "白色；白色的",
           "read_text": "<speak>white<break time=\"2000ms\"/>白色<break time=\"1500ms\"/>白色的</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/015.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/016.wav"
         },
         {
           "en": "black",
           "zh": "黑色；黑色的",
           "read_text": "<speak>black<break time=\"2000ms\"/>黑色<break time=\"1500ms\"/>黑色的</speak>",
-          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/016.wav"
+          "audio": "https://xiaoxueyuwen-1311686407.cos.ap-guangzhou.myqcloud.com/3s/en/unit5/017.wav"
         }
       ]
     },
