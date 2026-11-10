@@ -138,6 +138,8 @@
   .big-btn.replay .icon { font-size:clamp(30px,8vw,44px); color:#14532d; }
   .big-btn.replay .label { font-size:calc(var(--btn-fs-label) + 2px); color:#14532d; }
   .big-btn.playing .icon { animation:pulse 1s infinite; }
+  .big-btn.loading .icon { animation:pulse 1s infinite; opacity:.75; }
+  .big-btn.loading .label { opacity:.85; }
   @keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.14)} }
 
   /* ============ 遮罩 / Toast ============ */
@@ -234,8 +236,11 @@ let APP_MODE = 'chinese';    // 'chinese' | 'english'
 let curSection = null;       // 当前课次/单元 section
 let curMode = 'shengzi';     // 语文: 'shengzi' | 'ciyu'；英语忽略
 let curIndex = 0;
-let audioEl = null;
 let playing = false;
+/* 音频预加载池：同一 URL 只建一个 Audio 实例并提前下载，避免每次点击才发起请求 */
+const POOL = new Map();      // url -> Audio
+const POOL_MAX = 24;
+let curAudio = null;
 
 const DATA_FILES = {
   chinese: 'data/三年级上册_index.json',
@@ -313,12 +318,48 @@ function updateStage() {
   $('modeSwitch').style.display = (APP_MODE === 'english') ? 'none' : '';
   $('modeZh').classList.toggle('active', curMode === 'shengzi');
   $('modeCy').classList.toggle('active', curMode === 'ciyu');
+  prefetchAround();
 }
 
-/* ---------------- 播放（每词播一遍） ---------------- */
+/* ---------------- 播放（每词播一遍；预加载池 + 加载提示 + 自动重试） ---------------- */
+function audioPoolEvict() {
+  if (POOL.size <= POOL_MAX) return;
+  for (const [k, a] of POOL) {
+    if (POOL.size <= POOL_MAX) break;
+    if (a === curAudio) continue;
+    POOL.delete(k);
+    try { a.pause(); a.removeAttribute('src'); a.load(); } catch (e) {}
+  }
+}
+function getAudio(url) {
+  let a = POOL.get(url);
+  if (!a) {
+    a = new Audio();
+    a.preload = 'auto';
+    a.src = url;
+    POOL.set(url, a);
+    audioPoolEvict();
+  }
+  return a;
+}
+/* 预取：当前 + 后三条 + 前一条，点击“下一个”时音频已就绪 */
+function prefetchAround() {
+  const list = getList();
+  if (!list.length) return;
+  [curIndex, curIndex + 1, curIndex + 2, curIndex + 3, curIndex - 1].forEach(i => {
+    const it = list[i];
+    if (it && it.audio) getAudio(it.audio);
+  });
+}
+function setLoading(on) {
+  $('btnPlay').classList.toggle('loading', on);
+  const label = $('btnPlay').querySelector('.label');
+  if (label) label.textContent = on ? '加载中' : '重听';
+}
 function stopAudio() {
-  if (audioEl) { audioEl.pause(); audioEl = null; }
+  if (curAudio) { try { curAudio.pause(); curAudio.currentTime = 0; } catch (e) {} }
   playing = false;
+  setLoading(false);
   $('btnPlay').classList.remove('playing');
 }
 function playCurrent() {
@@ -326,15 +367,35 @@ function playCurrent() {
   if (!list.length) { toast(APP_MODE === 'english' ? '本单元暂无单词' : '本课暂无内容'); return; }
   const item = list[curIndex];
   if (!item || !item.audio) { toast('未找到音频'); return; }
-  stopAudio();
-  audioEl = new Audio(item.audio);
-  audioEl.preload = 'auto';
-  audioEl.playbackRate = 1;
-  audioEl.onended = () => { playing = false; $('btnPlay').classList.remove('playing'); audioEl = null; };
-  audioEl.onerror = () => { toast('音频加载失败'); playing = false; $('btnPlay').classList.remove('playing'); };
-  audioEl.play().then(() => {
-    playing = true; $('btnPlay').classList.add('playing');
-  }).catch(() => { toast('无法播放'); });
+  if (curAudio) { try { curAudio.pause(); } catch (e) {} }
+
+  let tried = 0;
+  const start = () => {
+    const a = getAudio(item.audio);
+    curAudio = a;
+    try { a.currentTime = 0; } catch (e) {}
+    a.onended = () => { playing = false; setLoading(false); $('btnPlay').classList.remove('playing'); prefetchAround(); };
+    a.onerror = () => {
+      if (tried++ === 0) { setTimeout(start, 200); }
+      else { setLoading(false); toast('音频加载失败，请重试'); }
+    };
+    setLoading(true);
+    const p = a.play();
+    if (p && p.then) {
+      p.then(() => {
+        setLoading(false); playing = true;
+        $('btnPlay').classList.add('playing');
+        prefetchAround();
+      }).catch(() => {
+        if (tried++ === 0) { setTimeout(start, 200); }
+        else { setLoading(false); toast('无法播放，请刷新重试'); }
+      });
+    } else {
+      setLoading(false); playing = true;
+      $('btnPlay').classList.add('playing');
+    }
+  };
+  start();
 }
 function goto(i) {
   const list = getList();
