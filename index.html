@@ -12,7 +12,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="听写台">
-<title>语文英语听写</title>
+<title>雅瀚读书 · 语文英语听写</title>
 <style>
   /* ============ 全局：清爽简洁 + 移动端/平板友好 ============ */
   * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -43,8 +43,17 @@
     height:100vh; height:100dvh; display:flex; flex-direction:column;
   }
 
-  /* ============ 顶部：主菜单 + 教材/课次下拉 ============ */
-  header { padding:calc(6px + env(safe-area-inset-top)) 0 2px; z-index:20; }
+  /* ============ 顶部：机构品牌 + 主菜单 + 教材/课次下拉 ============ */
+  /* 机构名：一行细字，独立在最顶端，不参与菜单/下拉布局 */
+  .brand-bar {
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    padding:6px 14px 0; font-size:clamp(10px,2.8vw,13px); font-weight:600;
+    letter-spacing:5px; padding-left:calc(14px + 5px); color:var(--sub); opacity:.72;
+  }
+  .brand-bar::before, .brand-bar::after {
+    content:""; width:18px; height:1px; background:currentColor; opacity:.45; flex:0 0 auto;
+  }
+  header { padding:calc(4px + env(safe-area-inset-top)) 0 2px; z-index:20; }
   .main-menu { display:flex; gap:10px; padding:6px 14px 8px; }
   .menu-btn {
     flex:1; padding:12px 0; border-radius:14px; border:2px solid var(--line);
@@ -143,6 +152,7 @@
 
   /* ============ 手机横屏（高度受限时压缩布局） ============ */
   @media (orientation:landscape) and (max-height:520px) {
+    .brand-bar { display:none; }
     .main-menu { padding:4px 10px 6px; gap:8px; }
     .menu-btn { padding:8px 0; }
     .info-bar { gap:4px 10px; padding:4px 10px 2px; }
@@ -167,6 +177,7 @@
 
   <!-- 顶部：主菜单（语文/英语） + 教材/课次 隐藏式下拉 -->
   <header>
+    <div class="brand-bar">雅瀚读书</div>
     <div class="main-menu">
       <button class="menu-btn active" id="menuZh">语文听写</button>
       <button class="menu-btn" id="menuEn">英语听写</button>
