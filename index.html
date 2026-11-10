@@ -386,6 +386,13 @@ function toast(msg) {
 /* ---------------- 初始化 ---------------- */
 function init() {
   if (!INDEX || !INDEX.sections || !INDEX.sections.length) { toast('索引为空'); return; }
+  // 令 APP_MODE 与实际加载的索引类型保持一致（URL ?index= 可能指向另一模式）
+  const wantMode = (INDEX.type === 'english') ? 'english' : 'chinese';
+  if (APP_MODE !== wantMode) {
+    APP_MODE = wantMode;
+    $('menuZh').classList.toggle('active', wantMode === 'chinese');
+    $('menuEn').classList.toggle('active', wantMode === 'english');
+  }
   curSection = INDEX.sections[0];
   curIndex = 0;
   renderBookDropdown();
